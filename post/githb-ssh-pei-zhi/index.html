@@ -6,7 +6,7 @@
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 <title>Githb SSH 配置 | Suremotoo&#39;s Blog</title>
-<link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555855669139">
+<link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555856396218">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
 
@@ -240,7 +240,7 @@ Attempts to ssh to github
           </div>
           <div class="author-meta">
             <div class="author">
-              <img alt='' src="http://suremotoo.coding.me/blog//images/avatar.png?v=1555855669139" class='avatar avatar-72 photo' height='72' width='72'>
+              <img alt='' src="http://suremotoo.coding.me/blog//images/avatar.png?v=1555856396218" class='avatar avatar-72 photo' height='72' width='72'>
               <span><a href='http://suremotoo.coding.me/blog/'>Suremotoo's Blog</a> </span>
             </div>
             <div class="bio">
@@ -279,6 +279,32 @@ Attempts to ssh to github
           
       </div>
       <section id="comments" class="comments">
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'd81b44642bafd8903e50',
+    clientSecret: '97a31ded0ca3059c0d2eebb44284224f596638cc',
+    repo: 'blog-comment',
+    owner: 'Suremotoo',
+    admin: ['Suremotoo'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
       </section>
     </div>
