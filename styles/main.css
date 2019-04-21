@@ -2913,6 +2913,21 @@ li.pingback:first-child {
   border-left: 0;
   border-right: 7px solid #e44d4d;
 }
+.tags-container {
+  padding: 32px 32px;
+  flex: 1;
+}
+.tags-container .tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  background: #d1dbe0;
+}
+.current-tag-container .title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
 /*
 
 ATTENTION:
