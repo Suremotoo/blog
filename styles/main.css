@@ -2737,17 +2737,6 @@ li.pingback:first-child {
   min-height: 100vh;
   flex-direction: column;
 }
-.tags-container {
-  padding: 32px 32px;
-  flex: 1;
-}
-.tags-container .tag {
-  display: inline-block;
-  padding: 4px 8px;
-  margin: 8px;
-  background: #e44d4d;
-  color: #FFFFFF;
-}
 #timeline .timeline-item:after,
 #timeline .timeline-item:before {
   content: '';
@@ -2920,8 +2909,9 @@ li.pingback:first-child {
 .tags-container .tag {
   display: inline-block;
   padding: 4px 8px;
-  margin-right: 8px;
-  background: #d1dbe0;
+  margin: 8px;
+  background: #e44d4d;
+  color: #FFFFFF;
 }
 .current-tag-container .title {
   text-align: center;
