@@ -1115,6 +1115,7 @@ a img {
   font-weight: 400;
   letter-spacing: 0.1em;
   display: block;
+  width: 180%;
 }
 .author-meta .bio a {
   margin-right: 0.375em;
@@ -1167,7 +1168,7 @@ a img {
   }
   .bio {
     float: right;
-    width: 50%;
+    width: 40%;
   }
   .bio p {
     margin-top: 0;
