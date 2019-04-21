@@ -4918,6 +4918,29 @@ li.pingback:first-child {
     padding: 16px;
   }
 }
+.tags-main {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+}
+.tags-main .tags-main-content {
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.tags-container {
+  padding: 32px 32px;
+  flex: 1;
+}
+.tags-container .tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  background: #e44d4d;
+  color: #FFFFFF;
+}
 #timeline .timeline-item:after,
 #timeline .timeline-item:before {
   content: '';
