@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>JetBrains 系列产品破解 | Suremotoo&#39;s Blog</title>
+<title>Githb SSH 配置 | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555855356168">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
@@ -137,9 +137,6 @@
     <div id="loop-container" class="loop-container">
       <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <div class='featured-image lazy lazy-bg-image' data-background="https://suremotoo.site/blog/img/jetbrains/jetbrains_pro.png">
-          </div>
-        
 
         <div class="entry-meta">
           <span class="date">· 2019-04-21 ·</span> <span> / </span>
@@ -149,12 +146,7 @@
           
             <span class="category">
                     <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/BpF4ckXSi">Crack</a>
-                </span>
-          
-            <span class="category">
-                    <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/7o61eZceD">Idea</a>
+                    <a href="http://suremotoo.coding.me/blog//tag/2II-I54cy">Github</a>
                 </span>
           
             <span class="category">
@@ -164,59 +156,49 @@
           
         </div>
         <div class='entry-header'>
-          <h1 class='entry-title'>JetBrains 系列产品破解</h1>
+          <h1 class='entry-title'>Githb SSH 配置</h1>
         </div>
         <div class="entry-container">
           <div class="entry-content">
             <article>
-              <h2 id=""></h2>
-<p>本教程可以破解 JetBrains 的大部分产品，例如：<strong>IntelliJ IDEA、WebStorm、PyCharm、PhpStorm、DataGrip</strong> 等，这些我本人已经实践，确实可破解，其余产品未尝试，有兴趣的可以去试试。</p>
-<p><em>本文章以  IDEA 为例，其余产品参考即可</em></p>
-<p><em><span style="color:red;"> 前提要安装 jdk（最好1.8） 并配置好环境变量</span></em></p>
+              <h2 id="配置github-ssh方式">配置GitHub-SSH方式</h2>
+<h3 id="第一步-检查密钥">第一步-检查密钥</h3>
+<h4 id="查看是否有-id_dsa-id_dsapub-文件">查看是否有 id_dsa、id_dsa.pub 文件</h4>
+<pre><code class="language-shell">$ cd ~/.ssh
+$ ls
+authorized_keys   known_hosts   id_rsa    id_rsa.pub 
+</code></pre>
+<p><em><strong>看一下有没有id_rsa和id_rsa.pub(或者是id_dsa和id_dsa.pub之类成对的文件)，有 .pub 后缀的文件就是公钥，另一个文件则是密钥。</strong></em></p>
+<h4 id="假如没有这些文件或者没有-ssh-目录可以用-ssh-keygen-来创建-该程序在-linuxmac-系统上由-ssh-包提供而在-windows-上则包含在-msysgit-包里">假如没有这些文件，或者没有 .ssh 目录，可以用 ssh-keygen 来创建。该程序在 Linux/Mac 系统上由 SSH 包提供，而在 Windows 上则包含在 MSysGit 包里：</h4>
 <!--more-->
-<h3 id="1-注意下载产品后先启动下-app会提示输入注册码的窗口然后关掉再进行破解步骤">1、注意：下载产品后，先启动下 app，会提示输入注册码的窗口，然后关掉，再进行破解步骤。</h3>
-<h3 id="2-百度搜索idea-破解第一个结果就是如图">2、百度：搜索“IDEA 破解”，第一个结果就是，如图：</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/baiduSerachIdea.png" style="display: block; max-width: 100%;height: auto;" alt="百度搜索"></p></p>
-<h3 id="3-下载破解文件-jar-包">3、下载破解文件 jar 包</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/crackerJar.png" style="display: block; max-width: 100%;height: auto;" alt="下载破解文件"></p></p>
-<p>最好将 jar 包放到一个英文目录下，本人的目录为：<em>/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em> ,大家自行配置。</p>
-<h3 id="4-修改配置文件就一句话">4、修改配置文件，就一句话！</h3>
-<p>找到 Idea 安装目录，进入 <strong>bin 文件夹</strong>，找到 <strong>idea.vmoptions</strong> 文件，在文件 最后加一行内容</p>
-<pre><code>-javaagent:破解文件地址
+<pre><code>$ ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot;
+
+Creates a new ssh key using the provided email # Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/you/.ssh/id_rsa):
 </code></pre>
-<p>我的配置就是：<em>-javaagent:/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em></p>
-<h3 id="5-输入激活代码即可激活">5、输入激活代码即可激活</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/activeCode.png" style="display: block; max-width: 100%;height: auto;" alt="激活码"></p></p>
-<h3 id="激活代码">激活代码</h3>
-<p><em>&quot;licenseeName&quot;:&quot;这里可以修改为你的名字&quot;,</em></p>
-<pre><code>{&quot;licenseId&quot;:&quot;1337&quot;,
-&quot;licenseeName&quot;:&quot;Suremotoo&quot;,
-&quot;assigneeName&quot;:&quot;&quot;,
-&quot;assigneeEmail&quot;:&quot;&quot;,
-&quot;licenseRestriction&quot;:&quot;Unlimited license till end of the century.&quot;,
-&quot;checkConcurrentUse&quot;:false,
-&quot;products&quot;:[
-{&quot;code&quot;:&quot;II&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;AC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RS0&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;WS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DPN&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;PS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;CL&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;PC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DB&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;GO&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RD&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;}
-],
-&quot;hash&quot;:&quot;2911276/0&quot;,
-&quot;gracePeriodDays&quot;:7,
-&quot;autoProlongated&quot;:false}
+<h4 id="直接按enter就行-然后会提示你输入密码如下如果很注重安全嘛建议输一个如果是私人电脑建议不输入不然你每次pull-push都要输入密码">直接按Enter就行。然后，会提示你输入密码，如下(如果很注重安全嘛，建议输一个；如果是私人电脑，建议不输入，不然你每次pull、push都要输入密码)：</h4>
+<pre><code>Enter same passphrase again: [Type passphrase again]
 </code></pre>
-<p>激活代码的地址：<img src="https://suremotoo.site/blog/img/jetbrains/activeCodeUrl.png" style="display: block; max-width: 100%;height: auto;" alt="如何找到激活码"></p></p>
+<h4 id="完了之后大概如下">完了之后，大概如下：</h4>
+<pre><code>Your public key has been saved in 路径省略/.ssh/id_rsa.pub.
+The key fingerprint is  此处省略......
+</code></pre>
+<h3 id="第二步-在github上配置公钥">第二步-在GitHub上配置公钥</h3>
+<h4 id="查看公钥">查看公钥</h4>
+<pre><code class="language-shell">$ cat ~/.ssh/id_rsa.pub
+
+ssh-rsa *******省略
+</code></pre>
+<h4 id="登陆你的github帐户-点击你的头像然后-settings-左栏点击-ssh-and-gpg-keys-点击-new-ssh-key-复制公钥内容粘贴进key文本域内-title域自己随便起个名字就行最后点击-add-key">登陆你的github帐户。点击你的头像，然后 <strong>Settings -&gt; 左栏点击 SSH and GPG keys -&gt; 点击 New SSH key</strong>  ，复制公钥内容，粘贴进“Key”文本域内。 title域，自己随便起个名字就行，最后点击 Add key</h4>
+<h3 id="第三部-验证">第三部-验证</h3>
+<pre><code>$ ssh -T git@github.com
+
+Attempts to ssh to github
+</code></pre>
+<h4 id="如果有如下提示就是成功啦">如果有如下提示就是成功啦</h4>
+<pre><code>Hi xxx! You've successfully authenticated, but GitHub does not # provide shell access.
+</code></pre>
 
             </article>
           </div>
@@ -291,7 +273,7 @@
             <nav class="navigation pagination" role="navigation">
               <h2 class="screen-reader-text">Posts navigation</h2>
               <div class="nav-links">
-                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/about">下一篇->Get in touch</a>
+                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/essential-electron-wen-dang">下一篇->Essential Electron 文档</a>
               </div>
             </nav>
           

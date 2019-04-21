@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>JetBrains 系列产品破解 | Suremotoo&#39;s Blog</title>
+<title>Electron 项目打包 | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555855356168">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
@@ -137,7 +137,7 @@
     <div id="loop-container" class="loop-container">
       <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <div class='featured-image lazy lazy-bg-image' data-background="https://suremotoo.site/blog/img/jetbrains/jetbrains_pro.png">
+          <div class='featured-image lazy lazy-bg-image' data-background="https://suremotoo.site/blog/img/electron/install_apps.jpg">
           </div>
         
 
@@ -149,74 +149,121 @@
           
             <span class="category">
                     <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/BpF4ckXSi">Crack</a>
-                </span>
-          
-            <span class="category">
-                    <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/7o61eZceD">Idea</a>
-                </span>
-          
-            <span class="category">
-                    <span> / </span>
                     <a href="http://suremotoo.coding.me/blog//tag/_dINrio8V">Code</a>
                 </span>
           
         </div>
         <div class='entry-header'>
-          <h1 class='entry-title'>JetBrains 系列产品破解</h1>
+          <h1 class='entry-title'>Electron 项目打包</h1>
         </div>
         <div class="entry-container">
           <div class="entry-content">
             <article>
-              <h2 id=""></h2>
-<p>本教程可以破解 JetBrains 的大部分产品，例如：<strong>IntelliJ IDEA、WebStorm、PyCharm、PhpStorm、DataGrip</strong> 等，这些我本人已经实践，确实可破解，其余产品未尝试，有兴趣的可以去试试。</p>
-<p><em>本文章以  IDEA 为例，其余产品参考即可</em></p>
-<p><em><span style="color:red;"> 前提要安装 jdk（最好1.8） 并配置好环境变量</span></em></p>
+              <h2 id="electron-项目打包">Electron 项目打包</h2>
+<p>打包可算是项目开发的一个句号，在这过程中，我也踩过不少坑，这里简单记录下自己的要点，也希望这篇文章可以给大家一些参考。</p>
 <!--more-->
-<h3 id="1-注意下载产品后先启动下-app会提示输入注册码的窗口然后关掉再进行破解步骤">1、注意：下载产品后，先启动下 app，会提示输入注册码的窗口，然后关掉，再进行破解步骤。</h3>
-<h3 id="2-百度搜索idea-破解第一个结果就是如图">2、百度：搜索“IDEA 破解”，第一个结果就是，如图：</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/baiduSerachIdea.png" style="display: block; max-width: 100%;height: auto;" alt="百度搜索"></p></p>
-<h3 id="3-下载破解文件-jar-包">3、下载破解文件 jar 包</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/crackerJar.png" style="display: block; max-width: 100%;height: auto;" alt="下载破解文件"></p></p>
-<p>最好将 jar 包放到一个英文目录下，本人的目录为：<em>/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em> ,大家自行配置。</p>
-<h3 id="4-修改配置文件就一句话">4、修改配置文件，就一句话！</h3>
-<p>找到 Idea 安装目录，进入 <strong>bin 文件夹</strong>，找到 <strong>idea.vmoptions</strong> 文件，在文件 最后加一行内容</p>
-<pre><code>-javaagent:破解文件地址
+<p>目前打包我经常用2种方式：</p>
+<ul>
+<li><strong>electron-packager</strong></li>
+<li><strong>electron-builder</strong></li>
+</ul>
+<p>先说下这两种大体上的区别：</p>
+<ul>
+<li><code>electron-packager</code> 有点像绿色解压版，会把所有的文件 <strong>暴露</strong> 出来。</li>
+<li><code>electron-builder</code> 打包应用是 <strong>安装包</strong> 方式，比如dmg,pkg,exe,deb 等等。</li>
+</ul>
+<h3 id="electron-packager">electron-packager**</h3>
+<p>使用命令：<code>npm install electron-packager --save-dev</code> 可安装相关模块</p>
+<p>安装好后配置 <em>package.json</em> 文件的 package 打包运行脚本</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;electron .&quot;,
+    &quot;dev&quot;: &quot;electron . --debug&quot;,
+    &quot;package&quot;: &quot;npm-run-all package:*&quot;,
+    &quot;package:mac&quot;: &quot;electron-packager ./app --overwrite --platform=darwin --arch=x64 --out=out --icon=app/assets/app-icon/mac/app.icns --osx-sign.identity='Developer ID Application: GitHub'&quot;,
+    &quot;package:win&quot;: &quot;electron-packager ./app --overwrite --platform=win32 --arch=ia32 --out=out --icon=app/assets/app-icon/win/app.ico&quot;,
+    &quot;package:linux&quot;: &quot;electron-packager ./app --overwrite --platform=linux --arch=x64 --out=out&quot;
+  },
 </code></pre>
-<p>我的配置就是：<em>-javaagent:/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em></p>
-<h3 id="5-输入激活代码即可激活">5、输入激活代码即可激活</h3>
-<p><img src="https://suremotoo.site/blog/img/jetbrains/activeCode.png" style="display: block; max-width: 100%;height: auto;" alt="激活码"></p></p>
-<h3 id="激活代码">激活代码</h3>
-<p><em>&quot;licenseeName&quot;:&quot;这里可以修改为你的名字&quot;,</em></p>
-<pre><code>{&quot;licenseId&quot;:&quot;1337&quot;,
-&quot;licenseeName&quot;:&quot;Suremotoo&quot;,
-&quot;assigneeName&quot;:&quot;&quot;,
-&quot;assigneeEmail&quot;:&quot;&quot;,
-&quot;licenseRestriction&quot;:&quot;Unlimited license till end of the century.&quot;,
-&quot;checkConcurrentUse&quot;:false,
-&quot;products&quot;:[
-{&quot;code&quot;:&quot;II&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;AC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RS0&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;WS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DPN&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;PS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;CL&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;PC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;DB&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;GO&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
-{&quot;code&quot;:&quot;RD&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;}
-],
-&quot;hash&quot;:&quot;2911276/0&quot;,
-&quot;gracePeriodDays&quot;:7,
-&quot;autoProlongated&quot;:false}
+<blockquote>
+<ul>
+<li>注意： ./app 是我自己的项目目录，out 是打包后存放的目录名，实际情况请自行修改</li>
+</ul>
+</blockquote>
+<p>打包对应的版本只需只需相关的命令即可，例如打包 mac 版本：<code>npm run-script package:mac</code> 即可。</p>
+<p><em>这里会有个小问题，后面说</em>。</p>
+<h3 id="electron-builder"><strong>electron-builder</strong></h3>
+<p>使用命令：<code>npm install electron-builder -g</code> 可安装相关模块，<code>我的安装全局才可用</code>！</p>
+<p>安装完后最好查看下是否成功： <code>electron-builder version</code></p>
+<p>成功后编辑项目文件夹下的 <em>package.json</em> 文件，添加electron builder编译所需要的属性</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;electron .&quot;,
+    &quot;dev&quot;: &quot;electron . --debug&quot;,
+    &quot;pack&quot;: &quot;electron-builder --dir&quot;,
+    &quot;dist&quot;: &quot;electron-builder&quot;
+  },
+  &quot;build&quot;: {
+      &quot;appId&quot;: &quot;site.suremotoo&quot;,
+      &quot;copyright&quot;: &quot;Suremotoo&quot;,
+      &quot;productName&quot;: &quot;e-tools&quot;,
+      &quot;dmg&quot;: {
+        &quot;background&quot;: &quot;app/assets/app-icon/png/app.icns&quot;,
+        &quot;window&quot;: {
+          &quot;x&quot;: 100,
+          &quot;y&quot;: 100,
+          &quot;width&quot;: 500,
+          &quot;height&quot;: 300
+        }
+      },
+      &quot;win&quot;: {
+        &quot;icon&quot;: &quot;app/assets/app-icon/win/app.ico&quot;
+      }
+    }
 </code></pre>
-<p>激活代码的地址：<img src="https://suremotoo.site/blog/img/jetbrains/activeCodeUrl.png" style="display: block; max-width: 100%;height: auto;" alt="如何找到激活码"></p></p>
+<blockquote>
+<ul>
+<li>注意： build 属性均是演示数据，实际情况请自行修改。</li>
+<li>具体的属性可参考官方文档</li>
+</ul>
+</blockquote>
+<h5 id="一次打包所有平台命令有3种任选其一">一次打包所有平台命令有3种，任选其一：</h5>
+<ul>
+<li><strong><code>electron-builder -mwl</code></strong></li>
+<li><strong><code>electron-builder --platform=all</code></strong></li>
+<li><strong><code>electron-builder --win --x64</code></strong></li>
+</ul>
+<h5 id="具体打包命令参数也是任选其一">具体打包命令参数，也是任选其一:</h5>
+<h6 id="mac-版"><em><strong>Mac 版</strong></em></h6>
+<p><strong><code>electron-builder -m</code></strong> <br>
+<strong><code>electron-builder -o</code></strong> <br>
+<strong><code>electron-builder --mac</code></strong> <br>
+<strong><code>electron-builder --macos</code></strong> <br>
+<strong><code>electron-builder --platform=mac</code></strong> <br>
+<strong><code>electron-builder --platform=darwin</code></strong> <br></p>
+<h6 id="windows-版"><em><strong>Windows 版</strong></em></h6>
+<p><strong><code>electron-builder -w</code></strong> <br>
+<strong><code>electron-builder --win</code></strong> <br>
+<strong><code>electron-builder --windows</code></strong> <br>
+<strong><code>electron-builder --platform=win</code></strong> <br>
+<strong><code>electron-builder --platform=win32</code></strong> <br></p>
+<h6 id="linux-版"><em><strong>Linux 版</strong></em></h6>
+<p><strong><code>electron-builder -l</code></strong> <br>
+<strong><code>electron-builder --linux</code></strong> <br>
+<strong><code>electron-builder --platform=linux</code></strong> <br></p>
+<p>打包对应的版本只需只需相关的命令即可，例如打包所有版本：<code>npm run-script pack</code> 或者 <code>npm run-script dist</code>  即可。</p>
+<blockquote>
+<ul>
+<li>提示：如果只是执行 <code>electron-builder</code> 命令，默认会根据当前系统打包哟~</li>
+</ul>
+</blockquote>
+<h3 id="上面提到的问题"><strong>上面提到的问题</strong></h3>
+<p>electron打包的时候需要<strong>下载一个版本库</strong>，速度会非常慢，即使开代理了，都不一定能解决，这里可以通过淘宝镜像源解决。</p>
+<p>对于 cnpm 和 yarn，我都没有过多使用，我比较喜欢传统的 npm，也是最可靠的，唯一的缺点就是慢。一般都用 npm install 可以解决，像这种打包需要某种文件，这个我觉得临时使用镜像还是可以的。</p>
+<p>以 electron-duilder 打包为例：</p>
+<pre><code>ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ 你的命令
+// 比如打包所有平台
+ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/  electron-builder --platform=all
+
+</code></pre>
 
             </article>
           </div>
@@ -291,7 +338,7 @@
             <nav class="navigation pagination" role="navigation">
               <h2 class="screen-reader-text">Posts navigation</h2>
               <div class="nav-links">
-                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/about">下一篇->Get in touch</a>
+                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/jetbrains-xi-lie-chan-pin-po-jie">下一篇->JetBrains 系列产品破解</a>
               </div>
             </nav>
           
