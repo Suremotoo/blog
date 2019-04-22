@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>Suremotoo&#39;s Blog</title>
+<title>Mac将snap包发布到SnapStore | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555932841924">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
@@ -17,7 +17,7 @@
 
 
 </head>
-<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+<body class="home blog ct-body standard">
 <div id="overflow-container" class="overflow-container">
   <a class="skip-content" href="#main">Skip to content</a>
   <header id="site-header" class="site-header" role="banner">
@@ -170,35 +170,203 @@
 
 
 </header>
+
   <div id="main" class="main" role="main">
-    <div class="main-content">
-      <div class="tags-container">
+    <div id="loop-container" class="loop-container">
+      <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Apidoc">Apidoc</a>
+          <div class='featured-image lazy lazy-bg-image' data-background="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/snapcraft.png?raw=true">
+          </div>
         
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Markdown">Markdown</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_snapcraft">snapcraft</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_snap">snap</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Code">Code</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Redis">Redis</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Mac">Mac</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Crack">Crack</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Github">Github</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Electron">Electron</a>
-        
-          <a class="tag" href="http://suremotoo.coding.me/blog//tag/tag_Idea">Idea</a>
-        
+
+        <div class="entry-meta">
+          <span class="date">· 2019-04-22 ·</span> <span> / </span>
+          <span class="author">
+            <a href="http://suremotoo.coding.me/blog/" title="" rel="author"> Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></a>
+          </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_snapcraft">snapcraft</a>
+                </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_snap">snap</a>
+                </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_Code">Code</a>
+                </span>
+          
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'>Mac将snap包发布到SnapStore</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <h3 id="macos-用snapcraft-将-snap-包发布到-snap-store">MacOS 用snapcraft 将 snap 包发布到 snap store</h3>
+<!--more-->
+<h2 id="第一步-注册开发者账号">第一步 注册开发者账号</h2>
+<p>首先，请在Snap Store中为您的快照 <a href="https://docs.snapcraft.io/t/registering-your-app-name/6793">注册一个名称</a> 。</p>
+<h2 id="第二步安装-snapcraft">第二步安装 snapcraft</h2>
+<p>如果没有安装 homebrew 的可以先去安装 homebrew。</p>
+<pre><code>brew install snapcraft
+</code></pre>
+<p>返回终端和.snap文件的位置。您现在需要使用Snapcraft开发人员帐户凭据验证<em>snapcraft</em>命令。这可以通过以下方式完成：</p>
+<pre><code>snapcraft login
+</code></pre>
+<p>回车会提示输入开发者账号邮箱和密码，验证通过后会提示如下图：
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/snapcraft-logion.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>接下来，上传snap包快照（这里以 <a href="https://suremotoo.site/e-tools">E-tools</a>为例）并将其释放到 <a href="https://docs.snapcraft.io/t/channels/551">稳定通道中</a> ：</p>
+<pre><code>snapcraft push --release=stable E-tools_1.3.4_amd64.snap
+</code></pre>
+<p>回车会进行上传：
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/publish-success.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>上传成功啦！可以去<a href="https://snapcraft.io/store">Snap Store | Snapcraft</a> 网站搜索 e-tools 软件。
+进入详情页面，点击 &quot;Update its listing information here&quot; 即可修改介绍信息，添加snap 图标、介绍信息、开发者网站、邮箱以及介绍图片视频等信息。</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/update-list-information.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>Bingo.🎉🎉</p>
+
+            </article>
+          </div>
+          <div class='entry-meta-bottom'>
+            <div class="entry-categories">
+              <p>
+                <span>Categories</span>
+                
+                  
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Apidoc" title="View all posts in Apidoc">Apidoc</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Markdown" title="View all posts in Markdown">Markdown</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_snapcraft" title="View all posts in snapcraft">snapcraft</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_snap" title="View all posts in snap">snap</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Code" title="View all posts in Code">Code</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Redis" title="View all posts in Redis">Redis</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Mac" title="View all posts in Mac">Mac</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Crack" title="View all posts in Crack">Crack</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Github" title="View all posts in Github">Github</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Electron" title="View all posts in Electron">Electron</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Idea" title="View all posts in Idea">Idea</a>
+                    
+                    
+              </p>
+            </div>
+            <div class="entry-tags">
+              <p><span>Tags</span>
+              </p>
+            </div>
+          </div>
+          <div class="author-meta">
+            <div class="author">
+              <img alt='Suremotoo' src="http://suremotoo.coding.me/blog//images/avatar.png?v=1555932841924" class='avatar avatar-72 photo' height='72' width='72'>
+              <span>Written by:<a href="https://suremotoo.site/" title="Posts by Suremotoo" rel="author">Suremotoo</a> </span>
+            </div>
+            <div class="bio">
+              <p>简约而不简单</p>
+              
+                
+                  <a class="email" target="_blank"
+                     href="https://github.com/Suremotoo">
+                    <i class="fab fa-github" title="github"></i>
+                  </a>
+                
+              
+                
+              
+                
+                  <a class="email" target="_blank"
+                     href="http://weibo.com/u/5438660018">
+                    <i class="fab fa-weibo" title="weibo"></i>
+                  </a>
+                
+              
+                
+              
+                
+              
+              <a class="email" target="_blank" href="mailto:suremotoo@163.com">
+                  <i class="fa fa-envelope" title="email icon"></i>
+              </a>
+              <a href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=875021259&amp;amp;site=qq&amp;amp;menu=yes" class="qq" target="_blank">
+                  <i class="fab fa-qq" title="qq"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+          
+            <nav class="navigation pagination" role="navigation">
+              <h2 class="screen-reader-text">Posts navigation</h2>
+              <div class="nav-links">
+                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/redis-jin-ji">下一篇->Redis 进击</a>
+              </div>
+            </nav>
+          
       </div>
+      <section id="comments" class="comments">
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'd81b44642bafd8903e50',
+    clientSecret: '97a31ded0ca3059c0d2eebb44284224f596638cc',
+    repo: 'blog-comment',
+    owner: 'Suremotoo',
+    admin: ['Suremotoo'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+      </section>
     </div>
   </div>
+
   <footer id="site-footer" class="site-footer" role="contentinfo">
     <h1>
         <a href="http://suremotoo.coding.me/blog/"> Suremotoo&#39;s Blog </a>
@@ -262,5 +430,4 @@
 </div>
 </body>
 </html>
-
 

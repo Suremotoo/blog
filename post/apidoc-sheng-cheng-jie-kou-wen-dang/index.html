@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>Electron 项目打包 | Suremotoo&#39;s Blog</title>
+<title>apidoc 生成接口文档 | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555932841924">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
@@ -175,138 +175,208 @@
     <div id="loop-container" class="loop-container">
       <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <div class='featured-image lazy lazy-bg-image' data-background="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/install_apps.jpg?raw=true">
+          <div class='featured-image lazy lazy-bg-image' data-background="https://github.com/Suremotoo/blog-comment/blob/master/img/tools/api-icon.jpg?raw=true">
           </div>
         
 
         <div class="entry-meta">
-          <span class="date">· 2019-04-21 ·</span> <span> / </span>
+          <span class="date">· 2019-04-22 ·</span> <span> / </span>
           <span class="author">
             <a href="http://suremotoo.coding.me/blog/" title="" rel="author"> Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></a>
           </span>
           
             <span class="category">
                     <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/tag_Code">Code</a>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_Apidoc">Apidoc</a>
                 </span>
           
             <span class="category">
                     <span> / </span>
-                    <a href="http://suremotoo.coding.me/blog//tag/tag_Electron">Electron</a>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_Markdown">Markdown</a>
                 </span>
           
         </div>
         <div class='entry-header'>
-          <h1 class='entry-title'>Electron 项目打包</h1>
+          <h1 class='entry-title'>apidoc 生成接口文档</h1>
         </div>
         <div class="entry-container">
           <div class="entry-content">
             <article>
-              <h2 id="electron-项目打包">Electron 项目打包</h2>
-<p>打包可算是项目开发的一个句号，在这过程中，我也踩过不少坑，这里简单记录下自己的要点，也希望这篇文章可以给大家一些参考。</p>
+              <h2 id="快速生成接口文档html格式-markdown格式">快速生成接口文档HTML格式、MARKDOWN格式</h2>
+<h2 id="生成html格式">生成HTML格式</h2>
+<h3 id="一-安装apidoc">一、安装apidoc</h3>
+<p><strong><u>安装前，请确保本机已安装node</u></strong></p>
+<pre><code class="language-bash">npm install apidoc -g
+</code></pre>
 <!--more-->
-<p>目前打包我经常用2种方式：</p>
-<ul>
-<li><strong>electron-packager</strong></li>
-<li><strong>electron-builder</strong></li>
-</ul>
-<p>先说下这两种大体上的区别：</p>
-<ul>
-<li><code>electron-packager</code> 有点像绿色解压版，会把所有的文件 <strong>暴露</strong> 出来。</li>
-<li><code>electron-builder</code> 打包应用是 <strong>安装包</strong> 方式，比如dmg,pkg,exe,deb 等等。</li>
-</ul>
-<h3 id="electron-packager">electron-packager**</h3>
-<p>使用命令：<code>npm install electron-packager --save-dev</code> 可安装相关模块</p>
-<p>安装好后配置 <em>package.json</em> 文件的 package 打包运行脚本</p>
-<pre><code class="language-json">&quot;scripts&quot;: {
-    &quot;start&quot;: &quot;electron .&quot;,
-    &quot;dev&quot;: &quot;electron . --debug&quot;,
-    &quot;package&quot;: &quot;npm-run-all package:*&quot;,
-    &quot;package:mac&quot;: &quot;electron-packager ./app --overwrite --platform=darwin --arch=x64 --out=out --icon=app/assets/app-icon/mac/app.icns --osx-sign.identity='Developer ID Application: GitHub'&quot;,
-    &quot;package:win&quot;: &quot;electron-packager ./app --overwrite --platform=win32 --arch=ia32 --out=out --icon=app/assets/app-icon/win/app.ico&quot;,
-    &quot;package:linux&quot;: &quot;electron-packager ./app --overwrite --platform=linux --arch=x64 --out=out&quot;
+<h3 id="二-安装后创建apidoc-结构">二、安装后创建APIDOC 结构</h3>
+<p>可以参考我的文件夹目录：</p>
+<pre><code class="language-bash">──doc                   文件夹
+├── apidoc.json         配置文件
+├── gen                 生成api文档的目录
+├── rules               生成文档参数文件夹
+│   └── Demo.java       具体api
+├── footer.md           页脚配置（可选）
+├── header.md           头部配置（可选）
+└── template            模板（可选）
+</code></pre>
+<p>先创建个文件夹命名为: <strong>doc</strong>  (名字随意) ，紧接着在文件夹中创建 <strong>apidoc.json</strong> 文件，apidoc.json 的内容可参考如下（实际使用中, 删除注释）:</p>
+<p><em><strong>apidoc.json</strong></em></p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;apidoc-example&quot;,
+  &quot;version&quot;: &quot;0.3.0&quot;,
+  &quot;description&quot;: &quot;apiDoc example project&quot;,
+  &quot;title&quot;: &quot;Custom apiDoc browser title&quot;,
+  &quot;url&quot;: &quot;https: {URL}/&quot;,
+  &quot;header&quot;: {
+    &quot;title&quot;: &quot;&quot;,//自定义头部标题
+    &quot;filename&quot;: &quot;header.md&quot; // header文件
   },
-</code></pre>
-<blockquote>
-<ul>
-<li>注意： ./app 是我自己的项目目录，out 是打包后存放的目录名，实际情况请自行修改</li>
-</ul>
-</blockquote>
-<p>打包对应的版本只需只需相关的命令即可，例如打包 mac 版本：<code>npm run-script package:mac</code> 即可。</p>
-<p><em>这里会有个小问题，后面说</em>。</p>
-<h3 id="electron-builder"><strong>electron-builder</strong></h3>
-<p>使用命令：<code>npm install electron-builder -g</code> 可安装相关模块，<code>我的安装全局才可用</code>！</p>
-<p>安装完后最好查看下是否成功： <code>electron-builder version</code></p>
-<p>成功后编辑项目文件夹下的 <em>package.json</em> 文件，添加electron builder编译所需要的属性</p>
-<pre><code class="language-json">&quot;scripts&quot;: {
-    &quot;start&quot;: &quot;electron .&quot;,
-    &quot;dev&quot;: &quot;electron . --debug&quot;,
-    &quot;pack&quot;: &quot;electron-builder --dir&quot;,
-    &quot;dist&quot;: &quot;electron-builder&quot;
+  &quot;footer&quot;: {
+    &quot;title&quot;: &quot;&quot;, //自定义页脚标题
+    &quot;filename&quot;: &quot;footer.md&quot; // footer文件
   },
-  &quot;build&quot;: {
-      &quot;appId&quot;: &quot;site.suremotoo&quot;,
-      &quot;copyright&quot;: &quot;Suremotoo&quot;,
-      &quot;productName&quot;: &quot;e-tools&quot;,
-      &quot;dmg&quot;: {
-        &quot;background&quot;: &quot;app/assets/app-icon/png/app.icns&quot;,
-        &quot;window&quot;: {
-          &quot;x&quot;: 100,
-          &quot;y&quot;: 100,
-          &quot;width&quot;: 500,
-          &quot;height&quot;: 300
-        }
-      },
-      &quot;win&quot;: {
-        &quot;icon&quot;: &quot;app/assets/app-icon/win/app.ico&quot;
-      }
-    }
+  &quot;template&quot;: {
+    &quot;withGenerator&quot;: false, // 是否展示apidoc版权生成信息
+    &quot;withCompare&quot;: false // 是否开启版本对比
+  }
+}
 </code></pre>
-<blockquote>
-<ul>
-<li>注意： build 属性均是演示数据，实际情况请自行修改。</li>
-<li>具体的属性可参考官方文档</li>
-</ul>
-</blockquote>
-<h5 id="一次打包所有平台命令有3种任选其一">一次打包所有平台命令有3种，任选其一：</h5>
-<ul>
-<li><strong><code>electron-builder -mwl</code></strong></li>
-<li><strong><code>electron-builder --platform=all</code></strong></li>
-<li><strong><code>electron-builder --win --x64</code></strong></li>
-</ul>
-<h5 id="具体打包命令参数也是任选其一">具体打包命令参数，也是任选其一:</h5>
-<h6 id="mac-版"><em><strong>Mac 版</strong></em></h6>
-<p><strong><code>electron-builder -m</code></strong> <br>
-<strong><code>electron-builder -o</code></strong> <br>
-<strong><code>electron-builder --mac</code></strong> <br>
-<strong><code>electron-builder --macos</code></strong> <br>
-<strong><code>electron-builder --platform=mac</code></strong> <br>
-<strong><code>electron-builder --platform=darwin</code></strong> <br></p>
-<h6 id="windows-版"><em><strong>Windows 版</strong></em></h6>
-<p><strong><code>electron-builder -w</code></strong> <br>
-<strong><code>electron-builder --win</code></strong> <br>
-<strong><code>electron-builder --windows</code></strong> <br>
-<strong><code>electron-builder --platform=win</code></strong> <br>
-<strong><code>electron-builder --platform=win32</code></strong> <br></p>
-<h6 id="linux-版"><em><strong>Linux 版</strong></em></h6>
-<p><strong><code>electron-builder -l</code></strong> <br>
-<strong><code>electron-builder --linux</code></strong> <br>
-<strong><code>electron-builder --platform=linux</code></strong> <br></p>
-<p>打包对应的版本只需只需相关的命令即可，例如打包所有版本：<code>npm run-script pack</code> 或者 <code>npm run-script dist</code>  即可。</p>
-<blockquote>
-<ul>
-<li>提示：如果只是执行 <code>electron-builder</code> 命令，默认会根据当前系统打包哟~</li>
-</ul>
-</blockquote>
-<h3 id="上面提到的问题"><strong>上面提到的问题</strong></h3>
-<p>electron打包的时候需要<strong>下载一个版本库</strong>，速度会非常慢，即使开代理了，都不一定能解决，这里可以通过淘宝镜像源解决。</p>
-<p>对于 cnpm 和 yarn，我都没有过多使用，我比较喜欢传统的 npm，也是最可靠的，唯一的缺点就是慢。一般都用 npm install 可以解决，像这种打包需要某种文件，这个我觉得临时使用镜像还是可以的。</p>
-<p>以 electron-duilder 打包为例：</p>
-<pre><code>ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ 你的命令
-// 比如打包所有平台
-ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/  electron-builder --platform=all
-
+<p>实际上，最简单的apidoc.json 文件可以只写: <strong>name、version、description</strong>就可以了，其他的都是可选配置，如下：</p>
+<p><em><strong>apidoc.json（精简版）</strong></em></p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;example&quot;,
+  &quot;version&quot;: &quot;0.1.0&quot;,
+  &quot;description&quot;: &quot;A basic apiDoc example&quot;
+}
 </code></pre>
+<p>在 <strong>doc</strong> 文件夹下，创建 <strong>rules</strong> 文件夹，再在 <strong>rules</strong> 文件夹下创建 <strong>Demo.java</strong>  文件夹，demo.java 内容使用样例：</p>
+<p><em><strong>Demo.java</strong></em></p>
+<pre><code class="language-java">/**
+ * @api {get} /user/:id Request User information
+ * @apiName GetUser
+ * @apiGroup User
+ *
+ * @apiParam {Number} id Users unique ID.
+ *
+ * @apiSuccess {String} firstname Firstname of the User.
+ * @apiSuccess {String} lastname  Lastname of the User.
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       &quot;firstname&quot;: &quot;John&quot;,
+ *       &quot;lastname&quot;: &quot;Doe&quot;
+ *     }
+ *
+ * @apiError UserNotFound The id of the User was not found.
+ *
+ * @apiErrorExample Error-Response:
+ *     HTTP/1.1 404 Not Found
+ *     {
+ *       &quot;error&quot;: &quot;UserNotFound&quot;
+ *     }
+ */
+public void getUser(String firstname, String lastname);
+</code></pre>
+<h3 id="三-生成文档">三、生成文档</h3>
+<p>执行生成命令</p>
+<pre><code class="language-bash">apidoc -i rules/ -o gen/
+</code></pre>
+<p><u><strong>命令的意思就是：将 rules 文件夹下的所有配置好的文件生成网页形式的文档, 并将文件生成到 gen 文件夹下</strong></u></p>
+<p>Bingo～</p>
+<hr>
+<h2 id="生成markdown形式">生成markdown形式</h2>
+<h3 id="一-安装apidoc-markdown">一、安装apidoc-markdown</h3>
+<p><strong><u>安装前，请确保本机已安装node</u></strong></p>
+<pre><code class="language-bash">npm install apidoc-markdown -g
+</code></pre>
+<h3 id="二-生成文档">二、生成文档</h3>
+<p>执行生成命令</p>
+<pre><code class="language-bash">apidoc-markdown -p gen -o gen/doc_markdown.md
+</code></pre>
+<p><strong><u>命令的意思就是：将 gen 文件夹下生成好的网页形式的文档, 转换成</u> doc_markdown.md 文件</strong></p>
+<p>⚠️⚠️注意：要使用apidoc-markdown，先用apidoc生成网页形式文档，再进行markdown文件的生成</p>
+<h2 id="apidoc-命令参数表">apidoc 命令参数表</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">-f --file-filters</td>
+<td>指定读取文件的文件名过滤正则表达式(可指定多个)<br>例如: <code style="color: #f01414;">apidoc -f ".*\\.js$" -f ".*\\.ts$"</code> 意为只读取后缀名为js和ts的文件<br>默认值:<code style="color: #f01414;">.clj .cls .coffee .cpp .cs .dart .erl .exs?</code><br> <code style="color: #f01414;">.go .groovy .ino? .java .js .jsx .kt .litcoffee lua .p .php? .pl .pm .py .rb .scala .ts .vue</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-e --exclude-filters</td>
+<td>指定不读取的文件名过滤正则表达式(可指定多个)<br>例如:<code style="color: #f01414;">apidoc -e ".*\\.js$"</code> 意为不读取后缀名为js的文件<br>默认:<code style="color: #f01414;">''</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-i, --input</td>
+<td>指定读取源文件的目录<br>例如：<code style="color: #f01414;">apidoc -i myapp/</code> 意为读取<code style="color: #f01414;">myapp/</code>目录下面的源文件<br>默认值:<code style="color: #f01414;">./</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-o, --output</td>
+<td>指定输出文档的目录<br>例如：<code style="color: #f01414;">apidoc -o doc/</code> 意为输出文档到<code style="color: #f01414;">doc</code>目录下<br>默认值:<code style="color: #f01414;">./doc/</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-t, --template</td>
+<td>指定输出的模板文件<br>例如:<code style="color: #f01414;">apidoc -t mytemplate/</code><br>默认:<code style="color: #f01414;">path.join(__dirname, '../template/')(使用默认模板)</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-c, --config</td>
+<td>指定包含配置文件(apidoc.json)的目录<br>例如:<code style="color: #f01414;">apidoc -c config/</code><br>默认:<code style="color: #f01414;">./</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-p, --private</td>
+<td>输出的文档中是否包含私有api<br>例如:<code style="color: #f01414;">apidoc -p true</code> <br>默认:<code style="color: #f01414;">false</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-v, --verbose</td>
+<td>是否输出详细的debug信息<br>例如:<code style="color: #f01414;">apidoc -v true</code><br>默认:<code style="color: #f01414;">false</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-h, --help</td>
+<td>查看帮助文档</td>
+</tr>
+</tbody>
+</table>
+<h2 id="apidoc-markdown-命令参数表">apidoc-markdown 命令参数表</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">-p, --path</td>
+<td>指定apidoc生成的文档目录</td>
+</tr>
+<tr>
+<td style="text-align:center">-o, --output</td>
+<td>指定输出的markdown文件路径(包含文件名)<br>例如:<code style="color: #f01414;">apidoc-markdown -o output_dir/markdown_name.md</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-t, --template</td>
+<td>指定生成markdown文件的模板文件(EJS模板文件)<br>默认:<code style="color: #f01414;">使用工具自带的模板文件</code>
+</td>
+</tr>
+</tbody>
+</table>
 
             </article>
           </div>
@@ -408,7 +478,7 @@ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/  electron-builder --pla
             <nav class="navigation pagination" role="navigation">
               <h2 class="screen-reader-text">Posts navigation</h2>
               <div class="nav-links">
-                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/jetbrains-xi-lie-chan-pin-po-jie">下一篇->JetBrains 系列产品破解</a>
+                <a class="next page-numbers" href="http://suremotoo.coding.me/blog//post/mac-jiang-snap-bao-fa-bu-dao-snapstore">下一篇->Mac将snap包发布到SnapStore</a>
               </div>
             </nav>
           

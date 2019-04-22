@@ -6,7 +6,7 @@
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 <title>Essential Electron 文档 | Suremotoo&#39;s Blog</title>
-<link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555899637203">
+<link rel="shortcut icon" href="http://suremotoo.coding.me/blog//favicon.ico?v=1555932841924">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="http://suremotoo.coding.me/blog//styles/main.css" type='text/css' media='all'>
 
@@ -31,26 +31,52 @@
                         
                             
                         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="http://suremotoo.coding.me/blog//tag/BpF4ckXSi">Crack</a>
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_Apidoc">Apidoc</a>
                         </li>
                             
                         
                             
                         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="http://suremotoo.coding.me/blog//tag/2II-I54cy">Github</a>
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_Markdown">Markdown</a>
                         </li>
                             
                         
                             
                         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="http://suremotoo.coding.me/blog//tag/_dINrio8V">Code</a>
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_snapcraft">snapcraft</a>
                         </li>
                             
                         
                             
                         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="http://suremotoo.coding.me/blog//tag/7o61eZceD">Idea</a>
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_snap">snap</a>
                         </li>
+                            
+                        
+                            
+                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_Code">Code</a>
+                        </li>
+                            
+                        
+                            
+                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_Redis">Redis</a>
+                        </li>
+                            
+                        
+                            
+                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+                            <a href="http://suremotoo.coding.me/blog//tag/tag_Mac">Mac</a>
+                        </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
                             
                         
                     </ul>
@@ -82,6 +108,18 @@
                 
                     
                 
+                <li>
+                    <a href="mailto:suremotoo@163.com" data-animate-hover="pulse" class="email">
+                        <i class="fa fa-envelope" title="email"></i>
+                        <span class="screen-reader-text">email</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=875021259&amp;amp;site=qq&amp;amp;menu=yes" class="qq" target="_blank">
+                        <i class="fab fa-qq" title="qq"></i>
+                        <span class="screen-reader-text">qq</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -146,6 +184,16 @@
           <span class="author">
             <a href="http://suremotoo.coding.me/blog/" title="" rel="author"> Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></a>
           </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_Code">Code</a>
+                </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="http://suremotoo.coding.me/blog//tag/tag_Electron">Electron</a>
+                </span>
           
         </div>
         <div class='entry-header'>
@@ -252,7 +300,7 @@
 <p><a name="它由什么组成?" id="它由什么组成?"></a></p>
 <h2 id="它由什么组成">它由什么组成?</h2>
 <p>Electron 结合了 <span class="def">Chromium</span>  、 <span class="def">Node.js</span> ，还有像打开文件窗口、通知、图标等这样的用于调用操作系统本地功能的 API。</p>
-<p><img src="https://suremotoo.site/blog/img/electron/components.png" style="display: block; max-width: 100%;height: auto;" alt="Electron components"></p></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/components.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron components"></p></p>
 <h3 id="下一节-开发体验如何">下一节: <a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></h3>
 <h3 id="定义-3">定义:</h3>
 <ul>
@@ -315,7 +363,7 @@
 <p><a name="主进程" id="主进程"></a></p>
 <h2 id="主进程">主进程</h2>
 <p>主进程，通常是一个命名为 <code>main.js</code> 的文件，该文件是每个 Electron 应用的入口。它控制了应用的生命周期（从打开到关闭）。它既能<span class="def">调用原生元素</span>，也能创建新的（多个）渲染进程。另外，Node API 是内置其中的。</p>
-<img src="https://suremotoo.site/blog/img/electron/main.png" style="display: block; max-width: 100%;height: auto;" alt="main process diagram">
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/main.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="main process diagram">
 <h3 id="定义-7">定义:</h3>
 <ul>
 <li><strong>调用原生元素</strong> 打开 diglog 和其它操作系统的交互均是参考资料密集型操作，因此都需要在主进程完成,从而不会中断渲染程序进程。</li>
@@ -328,7 +376,7 @@
 <p><a name="渲染进程" id="渲染进程"></a></p>
 <h2 id="渲染进程">渲染进程</h2>
 <p>渲染进程是应用的一个浏览器窗口。与主进程不同，它能存在多个,并且相互独立.他们也能是<span class="def">隐藏</span>的。主窗口通常被命名为 <code>index.html</code> 。它们就像典型的 HTML 文件，但 Electron 赋予了它们完整的 Node API。因此，这也是它与浏览器的区别。</p>
-<img src="https://suremotoo.site/blog/img/electron/renderer.png" style="display: block; max-width: 100%;height: auto;" alt="renderer process">
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/renderer.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="renderer process">
 <h3 id="定义-8">定义:</h3>
 <ul>
 <li><strong>相互独立</strong> 每个渲染进程都是独立的，这意味着某个渲染进程的崩溃，也不会影响其余渲染进程。</li>
@@ -342,7 +390,7 @@
 <p><a name="像这样思考" id="像这样思考"></a></p>
 <h2 id="像这样思考">像这样思考</h2>
 <p>在Chrome（或其他网络浏览器）中，每个选项卡及其网页就像Electron中的单个渲染器进程。如果关闭所有选项卡，Chrome仍然存在，这就像您的主进程一样，您可以打开新窗口或退出应用程序。</p>
-<img src="https://suremotoo.site/blog/img/electron/like-this.png" style="display: block; max-width: 100%;height: auto;" alt="Chrome comparison of the two processes">
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/like-this.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Chrome comparison of the two processes">
 <h3 id="参考资料-8">参考资料:</h3>
 <ul>
 <li><a href="http://electron.atom.io/docs/tutorial/quick-start/#differences-between-main-process-and-renderer-process">主进程和渲染进程的差异</a></li>
@@ -351,7 +399,7 @@
 <p><a name="保持通讯" id="保持通讯"></a></p>
 <h2 id="保持通讯">保持通讯</h2>
 <p>由于主进程和渲染进程各自负责不同的任务，而对于需要协同完成的任务，它们需要相互通讯。<span class="def">IPC</span>就为此而生，它提供了进程间的通讯。但它只能在主进程与渲染进程之间传递信息（即渲染进程之间不能进行直接通讯）。</p>
-<img src="https://suremotoo.site/blog/img/electron/ipc.png" style="display: block; max-width: 100%;height: auto;" alt="IPC diagram">
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/ipc.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="IPC diagram">
 <h3 id="定义-9">定义:</h3>
 <ul>
 <li><strong>IPC</strong> 主进程和渲染进程各自拥有一个 IPC 模块。</li>
@@ -360,7 +408,7 @@
 <p><a name="总而言之" id="总而言之"></a></p>
 <h2 id="总而言之">总而言之</h2>
 <p>Electron 应用就像 Node 应用，它也依赖一个 <span class="def"><code>package.json</code> </span> 文件。该文件定义了哪个文件作为主进程，并因此让 Electron 知道从何启动应用。然后主进程能创建渲染进程，并能使用 IPC 让两者间进行消息传递</p>
-<img src="https://suremotoo.site/blog/img/electron/app-files.png" style="display: block; max-width: 100%;height: auto;" alt="Electron app components diagram">
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/app-files.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron app components diagram">
 <h3 id="定义-10">定义:</h3>
 <ul>
 <li><strong><code>package.json</code> 文件</strong> 这是Node应用程序中的一个常用文件，其中包含有关该项目的元数据和一系列依赖关系。</li>
@@ -411,28 +459,49 @@
                 
                   
                     
-                  <a href="http://suremotoo.coding.me/blog//tag/BpF4ckXSi" title="View all posts in Crack">Crack</a>
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Apidoc" title="View all posts in Apidoc">Apidoc</a>
                     
                     
                     
-                  <a href="http://suremotoo.coding.me/blog//tag/2II-I54cy" title="View all posts in Github">Github</a>
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Markdown" title="View all posts in Markdown">Markdown</a>
                     
                     
                     
-                  <a href="http://suremotoo.coding.me/blog//tag/_dINrio8V" title="View all posts in Code">Code</a>
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_snapcraft" title="View all posts in snapcraft">snapcraft</a>
                     
                     
                     
-                  <a href="http://suremotoo.coding.me/blog//tag/7o61eZceD" title="View all posts in Idea">Idea</a>
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_snap" title="View all posts in snap">snap</a>
                     
                     
-                <!--<a href="/blog/categories/github" title="View all posts in Github">Github</a>
-                <a href="/blog/categories/ssh" title="View all posts in SSH">SSH</a>
-                <a href="/blog/categories/apidoc" title="View all posts in apidoc">apidoc</a>
-                <a href="/blog/categories/code" title="View all posts in code">code</a>
-                <a href="/blog/categories/markdown" title="View all posts in markdown">markdown</a>
-                <a href="/blog/categories/snap" title="View all posts in snap">snap</a>
-                <a href="/blog/categories/snap-store" title="View all posts in snap store">snap store</a>-->
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Code" title="View all posts in Code">Code</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Redis" title="View all posts in Redis">Redis</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Mac" title="View all posts in Mac">Mac</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Crack" title="View all posts in Crack">Crack</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Github" title="View all posts in Github">Github</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Electron" title="View all posts in Electron">Electron</a>
+                    
+                    
+                    
+                  <a href="http://suremotoo.coding.me/blog//tag/tag_Idea" title="View all posts in Idea">Idea</a>
+                    
+                    
               </p>
             </div>
             <div class="entry-tags">
@@ -442,11 +511,11 @@
           </div>
           <div class="author-meta">
             <div class="author">
-              <img alt='' src="http://suremotoo.coding.me/blog//images/avatar.png?v=1555899637203" class='avatar avatar-72 photo' height='72' width='72'>
-              <span><a href='http://suremotoo.coding.me/blog/'>Suremotoo's Blog</a> </span>
+              <img alt='Suremotoo' src="http://suremotoo.coding.me/blog//images/avatar.png?v=1555932841924" class='avatar avatar-72 photo' height='72' width='72'>
+              <span>Written by:<a href="https://suremotoo.site/" title="Posts by Suremotoo" rel="author">Suremotoo</a> </span>
             </div>
             <div class="bio">
-              <p>Suremotoo&#39;s Blog</p>
+              <p>简约而不简单</p>
               
                 
                   <a class="email" target="_blank"
@@ -468,6 +537,12 @@
               
                 
               
+              <a class="email" target="_blank" href="mailto:suremotoo@163.com">
+                  <i class="fa fa-envelope" title="email icon"></i>
+              </a>
+              <a href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=875021259&amp;amp;site=qq&amp;amp;menu=yes" class="qq" target="_blank">
+                  <i class="fab fa-qq" title="qq"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -549,6 +624,18 @@
         
             
         
+        <li>
+            <a href="mailto:suremotoo@163.com" class="email">
+                <i class="fa fa-envelope" title="email"></i>
+                <span class="screen-reader-text">email</span>
+            </a>
+        </li>
+        <li>
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=875021259&amp;amp;site=qq&amp;amp;menu=yes" class="qq" target="_blank">
+                <i class="fab fa-qq" title="qq"></i>
+                <span class="screen-reader-text">qq</span>
+            </a>
+        </li>
     </ul>
     <div class="design-credit">
         <p>Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></p>
