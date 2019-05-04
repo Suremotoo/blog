@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>Suremotoo&#39;s Blog</title>
+<title>禁用 Chrome 的黑色模式/Dark Mode | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="https://suremotoo.site/blog//favicon.ico?v=1556936029956">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://suremotoo.site/blog//styles/main.css" type='text/css' media='all'>
@@ -26,7 +26,7 @@
 
 
 </head>
-<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+<body class="home blog ct-body standard">
 <div id="overflow-container" class="overflow-container">
   <a class="skip-content" href="#main">Skip to content</a>
   <header id="site-header" class="site-header" role="banner">
@@ -189,39 +189,235 @@
 
 
 </header>
+
   <div id="main" class="main" role="main">
-    <div class="main-content">
-      <div class="tags-container">
+    <div id="loop-container" class="loop-container">
+      <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag-chrome">Chrome</a>
+          <div class='featured-image lazy lazy-bg-image' data-background="https://i.loli.net/2019/05/04/5cccf17a277d9.png">
+          </div>
         
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag-dark">Dark</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Apidoc">Apidoc</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Markdown">Markdown</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_snapcraft">snapcraft</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_snap">snap</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Code">Code</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Redis">Redis</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Mac">Mac</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Crack">Crack</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Github">Github</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Electron">Electron</a>
-        
-          <a class="tag" href="https://suremotoo.site/blog//tag/tag_Idea">Idea</a>
-        
+
+        <div class="entry-meta">
+          <span class="date">· 2019-05-04 ·</span> <span> / </span>
+          <span class="author">
+            <a href="https://suremotoo.site/blog/" title="" rel="author"> Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></a>
+          </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="https://suremotoo.site/blog//tag/tag-chrome">Chrome</a>
+                </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="https://suremotoo.site/blog//tag/tag-dark">Dark</a>
+                </span>
+          
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'>禁用 Chrome 的黑色模式/Dark Mode</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <p>macOS Mojave 中引入了系统层面的黑色模式，Chrome 73 在应用中支行了这一模式，即系统设置为黑色模式时，Chrome 会自动适应切换到 Dark Mode。</p>
+<!-- more -->
+<p><em><strong>Chrome 跟随系统设置的黑色模式</strong></em>
+<img src="https://i.loli.net/2019/05/04/5cccf17a277d9.png" alt="chrome-system-dark.png" title="chrome-system-dark.png" />
+不得不说，深色模式总是很受欢迎～</p>
+<p>但其实黑色模式下标题与顶部系统菜单融为一体，且黑色模式下 Chrome 标签上内容辨识度也不高了，看起来还是有点别扭。更重要的是，主题没选好，可能就会导致如下图的情况咯（上面是chrome开启深色模式，下面是关闭深色模式。）
+<em><strong>Chrome 黑色模式下与普通模式的对比</strong></em>
+<img src="https://i.loli.net/2019/05/04/5cccf179badba.png" alt="chrome-diff.png" title="chrome-diff.png" />
+很明显，不开深色模式更舒服（可能chrome的主题有关系，大家自己去尝试）～
+所以决定系统使用 Dark Mode 的情况下将 Chrome 的黑色禁用。</p>
+<p>通过命令行中设置 <strong>defaults</strong> 值可达到目的。</p>
+<pre><code class="language-shell">$ defaults write com.google.Chrome NSRequiresAquaSystemAppearance -bool Yes
+</code></pre>
+<p>如果想恢复默认，只需要将刚才设置的值删掉或者将 Yes 设置成 No。</p>
+<pre><code class="language-shell">$ defaults delete com.google.Chrome NSRequiresAquaSystemAppearance
+</code></pre>
+<h3 id="禁用任意-app-的-dark-mode">禁用任意 App 的 Dark Mode</h3>
+<p>推而广之，不仅可禁止 Chrome 进入 Dark Mode，还可让其他任意 App 不进入 Dark Mode，如果该应用支持过 Dark Mode 的话。只需要找出该应用的打包发布的 bundle id 即可。这个 id 可通过下面的命令来得到。比如查看 Canary 版本的 Chrome：</p>
+<pre><code class="language-shell">$ osascript -e 'id of app &quot;Google Chrome Canary&quot;' 
+com.google.Chrome.canary
+</code></pre>
+<p>其中 Google Chrome Canary （不区分大小写）是你在程序文件夹下看到的 .app 后缀的那个文件的文件名，比如这里 Google Chrome Canary.app。得到的 id 为 com.google.Chrome.canary 再代入最上面的命令中即可。</p>
+<pre><code class="language-shell">$ defaults write com.google.Chrome.canary NSRequiresAquaSystemAppearance -bool Yes
+</code></pre>
+<p>这里 id 是区分大小写的，写错不生效。</p>
+<p>要恢复默认时同理。</p>
+<h3 id="其他默认值">其他默认值</h3>
+<p>通过 <strong>defaults read</strong> 可查看到所有应用已经存在的的 defaults 值。</p>
+<pre><code class="language-shell">$ defaults read &gt;&gt; defaults.txt
+</code></pre>
+<p>打开 defaults.txt 后搜索相应 app 的 id 可看到其所有可用值的列表。比如搜索 com.google.chrome</p>
+<pre><code>{
+      &quot;com.google.Chrome&quot; =     {
+        KeychainReauthorizeInAppSpring2017 = 2;
+        KeychainReauthorizeInAppSpring2017Success = 1;
+        LastRunAppBundlePath = &quot;/Applications/Google Chrome.app&quot;;
+        ...
+    };
+    &quot;com.google.Chrome.canary&quot; =     {
+        KeychainReauthorizeInAppSpring2017 = 1;
+        KeychainReauthorizeInAppSpring2017Success = 1;
+        LastRunAppBundlePath = &quot;/Applications/Google Chrome Canary.app&quot;;
+        ...
+    };
+}
+</code></pre>
+<p>本文转载<a href="https://www.cnblogs.com/Wayou/p/disable_mac_chrome_dark_mode.html">Wayou</a></p>
+
+            </article>
+          </div>
+          <div class='entry-meta-bottom'>
+            <div class="entry-categories">
+              <p>
+                <span>Categories</span>
+                
+                  
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag-chrome" title="View all posts in Chrome">Chrome</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag-dark" title="View all posts in Dark">Dark</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Apidoc" title="View all posts in Apidoc">Apidoc</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Markdown" title="View all posts in Markdown">Markdown</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_snapcraft" title="View all posts in snapcraft">snapcraft</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_snap" title="View all posts in snap">snap</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Code" title="View all posts in Code">Code</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Redis" title="View all posts in Redis">Redis</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Mac" title="View all posts in Mac">Mac</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Crack" title="View all posts in Crack">Crack</a>
+                    
+                    
+                    
+                  <a href="https://suremotoo.site/blog//tag/tag_Github" title="View all posts in Github">Github</a>
+                    
+                    
+                    
+                    
+                    
+                    
+              </p>
+            </div>
+            <div class="entry-tags">
+              <p><span>Tags</span>
+              </p>
+            </div>
+          </div>
+          <div class="author-meta">
+            <div class="author">
+              <img alt='' src="https://suremotoo.site/blog//images/avatar.png?v=1556936029956" class='avatar avatar-72 photo' height='72' width='72'>
+              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='https://suremotoo.site/blog/'>Suremotoo</a> </span>
+            </div>
+            <div class="bio">
+              <p>简约而不简单</p>
+              
+                
+                  <a class="github" target="_blank"
+                     href="https://github.com/Suremotoo">
+                    <i class="fab fa-github" title="github"></i>
+                  </a>
+                
+              
+                
+              
+                
+                  <a class="weibo" target="_blank"
+                     href="http://weibo.com/u/5438660018">
+                    <i class="fab fa-weibo" title="weibo"></i>
+                  </a>
+                
+              
+                
+              
+                
+              
+                
+                  <a class="envelope" target="_blank"
+                     href="mailto:suremotoo@163.com">
+                    <i class="fa fa-envelope" title="envelope"></i>
+                  </a>
+                
+              
+                
+                  <a class="qq" target="_blank"
+                     href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=875021259&amp;amp;site=qq&amp;amp;menu=yes">
+                    <i class="fab fa-qq" title="qq"></i>
+                  </a>
+                
+              
+            </div>
+          </div>
+        </div>
+          
+            <nav class="navigation pagination" role="navigation">
+              <h2 class="screen-reader-text">Posts navigation</h2>
+              <div class="nav-links">
+                <a class="next page-numbers" href="https://suremotoo.site/blog//post/apidoc-sheng-cheng-jie-kou-wen-dang">下一篇->apidoc 生成接口文档</a>
+              </div>
+            </nav>
+          
       </div>
+      <section id="comments" class="comments">
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'bce50134a0bec47556f6',
+    clientSecret: 'f545e9b6998fb5abf19f591f68969fa56163a94d',
+    repo: 'blog-comment',
+    owner: 'Suremotoo',
+    admin: ['Suremotoo'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+      </section>
     </div>
   </div>
+
   <footer id="site-footer" class="site-footer" role="contentinfo">
     <h1>
         <a href="https://suremotoo.site/blog/"> Suremotoo&#39;s Blog </a>
@@ -291,5 +487,4 @@
 </div>
 </body>
 </html>
-
 
