@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>Get in touch | Suremotoo&#39;s Blog</title>
+<title>Excel 保护表密码忘了怎么办？ | Suremotoo&#39;s Blog</title>
 <link rel="shortcut icon" href="https://suremotoo.site/blog//favicon.ico?v=1557327738951">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://suremotoo.site/blog//styles/main.css" type='text/css' media='all'>
@@ -195,35 +195,200 @@
     <div id="loop-container" class="loop-container">
       <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
+          <div class='featured-image lazy lazy-bg-image' data-background="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/microsoft_excel.jpg?raw=true">
+          </div>
+        
 
         <div class="entry-meta">
-          <span class="date">· 2019-04-21 ·</span> <span> / </span>
+          <span class="date">· 2019-05-08 ·</span> <span> / </span>
           <span class="author">
             <a href="https://suremotoo.site/blog/" title="" rel="author"> Powered by <a href="https://github.com/Suremotoo" target="_blank">Suremotoo</a></a>
           </span>
           
+            <span class="category">
+                    <span> / </span>
+                    <a href="https://suremotoo.site/blog//tag/tag_Crack">Crack</a>
+                </span>
+          
         </div>
         <div class='entry-header'>
-          <h1 class='entry-title'>Get in touch</h1>
+          <h1 class='entry-title'>Excel 保护表密码忘了怎么办？</h1>
         </div>
         <div class="entry-container">
           <div class="entry-content">
             <article>
-              <h3 id="我为什么要写博客">我为什么要写博客❓</h3>
-<ol>
-<li>通过对所学知识的回忆，归纳和总结，并整理成图文并茂的文章，以此加深对知识的理解💡</li>
-<li>我用它记录学习和生活的点点滴滴，方便以后自己查询; 也希望能够帮助到其他的人❤️</li>
-</ol>
-<h4 id="">📚📚</h4>
-<ul>
-<li>该博客内容不仅仅只是包含代码技术类的分享、也包括个人的生活记录（主要以代码、技术类为主）</li>
-<li></li>
-</ul>
-<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/incident-comms.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="incident-comms-illustration">
-<p><em><strong>如果你喜欢,可以关注我。</strong></em></p>
-<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/happy-falling-star.jpg?raw=true" style="display: block; max-width: 100%;height: auto;" alt="happy-falling-star">
-<p><em><strong>如果你喜欢,可以收藏我的博客、主页。</strong></em></p>
-<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/likes.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="likes">
+              <p>在工作中，大家可能使用Excel的保护表功能，对 Excel 文件进行加密，有些是数据模板，防止误改加了密，也有可能是时间久了，就把密码给忘了。当然，这也不是不能解决的，现在给出破解密码的方法！😋😋</p>
+ <!-- more --> 
+<p>1、用 Microsoft Excel 打开需要破解保护密码的 Excel 文件
+2、依次点击 <strong>菜单栏上的「工具」—「宏」— 「录制新宏」</strong>，输入宏名字，如：crack 点击 <strong>确定</strong>。</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-1.png?raw=true" alt="excel-cracker-1"></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-2.png?raw=true" alt="excel-cracker-2"></p>
+<p>3、再依次点击 <strong>菜单栏上的「工具」—「宏」— 「停止录制」</strong>(这样就得到一个空的宏)；</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-3.png?raw=true" alt="excel-cracker-3"></p>
+<p>4、依次点击菜<strong>菜单栏上的「工具」—「宏」— 「宏」</strong>,选 crack,点<strong>编辑</strong>按钮；</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-4.png?raw=true" alt="excel-cracker-4"></p>
+<p>5、删除窗口中的所有代码，替换为下面的代码内容</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-5-code.png?raw=true" alt="excel-cracker-5"></p>
+<pre><code class="language-vb">Option Explicit
+
+Public Sub AllInternalPasswords()
+' Breaks worksheet and workbook structure passwords. Bob McCormick
+' probably originator of base code algorithm modified for coverage
+' of workbook structure / windows passwords and for multiple passwords
+'
+' Norman Harker and JE McGimpsey 27-Dec-2002 (Version 1.1)
+' Modified 2003-Apr-04 by JEM: All msgs to constants, and
+' eliminate one Exit Sub (Version 1.1.1)
+' Reveals hashed passwords NOT original passwords
+Const DBLSPACE As String = vbNewLine &amp; vbNewLine
+Const AUTHORS As String = DBLSPACE &amp; vbNewLine &amp; _
+&quot;Adapted from Bob McCormick base code by&quot; &amp; _
+&quot;Norman Harker and JE McGimpsey&quot;
+Const HEADER As String = &quot;AllInternalPasswords User Message&quot;
+Const VERSION As String = DBLSPACE &amp; &quot;Version 1.1.1 2003-Apr-04&quot;
+Const REPBACK As String = DBLSPACE &amp; &quot;Please report failure &quot; &amp; _
+&quot;to the microsoft.public.excel.programming newsgroup.&quot;
+Const ALLCLEAR As String = DBLSPACE &amp; &quot;The workbook should &quot; &amp; _
+&quot;now be free of all password protection, so make sure you:&quot; &amp; _
+DBLSPACE &amp; &quot;SAVE IT NOW!&quot; &amp; DBLSPACE &amp; &quot;and also&quot; &amp; _
+DBLSPACE &amp; &quot;BACKUP!, BACKUP!!, BACKUP!!!&quot; &amp; _
+DBLSPACE &amp; &quot;Also, remember that the password was &quot; &amp; _
+&quot;put there for a reason. Don't stuff up crucial formulas &quot; &amp; _
+&quot;or data.&quot; &amp; DBLSPACE &amp; &quot;Access and use of some data &quot; &amp; _
+&quot;may be an offense. If in doubt, don't.&quot;
+Const MSGNOPWORDS1 As String = &quot;There were no passwords on &quot; &amp; _
+&quot;sheets, or workbook structure or windows.&quot; &amp; AUTHORS &amp; VERSION
+Const MSGNOPWORDS2 As String = &quot;There was no protection to &quot; &amp; _
+&quot;workbook structure or windows.&quot; &amp; DBLSPACE &amp; _
+&quot;Proceeding to unprotect sheets.&quot; &amp; AUTHORS &amp; VERSION
+Const MSGTAKETIME As String = &quot;After pressing OK button this &quot; &amp; _
+&quot;will take some time.&quot; &amp; DBLSPACE &amp; &quot;Amount of time &quot; &amp; _
+&quot;depends on how many different passwords, the &quot; &amp; _
+&quot;passwords, and your computer's specification.&quot; &amp; DBLSPACE &amp; _
+&quot;Just be patient! Make me a coffee!&quot; &amp; AUTHORS &amp; VERSION
+Const MSGPWORDFOUND1 As String = &quot;You had a Worksheet &quot; &amp; _
+&quot;Structure or Windows Password set.&quot; &amp; DBLSPACE &amp; _
+&quot;The password found was: &quot; &amp; DBLSPACE &amp; &quot;$$&quot; &amp; DBLSPACE &amp; _
+&quot;Note it down for potential future use in other workbooks by &quot; &amp; _
+&quot;the same person who set this password.&quot; &amp; DBLSPACE &amp; _
+&quot;Now to check and clear other passwords.&quot; &amp; AUTHORS &amp; VERSION
+Const MSGPWORDFOUND2 As String = &quot;You had a Worksheet &quot; &amp; _
+&quot;password set.&quot; &amp; DBLSPACE &amp; &quot;The password found was: &quot; &amp; _
+DBLSPACE &amp; &quot;$$&quot; &amp; DBLSPACE &amp; &quot;Note it down for potential &quot; &amp; _
+&quot;future use in other workbooks by same person who &quot; &amp; _
+&quot;set this password.&quot; &amp; DBLSPACE &amp; &quot;Now to check and clear &quot; &amp; _
+&quot;other passwords.&quot; &amp; AUTHORS &amp; VERSION
+Const MSGONLYONE As String = &quot;Only structure / windows &quot; &amp; _
+&quot;protected with the password that was just found.&quot; &amp; _
+ALLCLEAR &amp; AUTHORS &amp; VERSION &amp; REPBACK
+Dim w1 As Worksheet, w2 As Worksheet
+Dim i As Integer, j As Integer, k As Integer, l As Integer
+Dim m As Integer, n As Integer, i1 As Integer, i2 As Integer
+Dim i3 As Integer, i4 As Integer, i5 As Integer, i6 As Integer
+Dim PWord1 As String
+Dim ShTag As Boolean, WinTag As Boolean
+
+Application.ScreenUpdating = False
+With ActiveWorkbook
+WinTag = .ProtectStructure Or .ProtectWindows
+End With
+ShTag = False
+For Each w1 In Worksheets
+ShTag = ShTag Or w1.ProtectContents
+Next w1
+If Not ShTag And Not WinTag Then
+MsgBox MSGNOPWORDS1, vbInformation, HEADER
+Exit Sub
+End If
+MsgBox MSGTAKETIME, vbInformation, HEADER
+If Not WinTag Then
+MsgBox MSGNOPWORDS2, vbInformation, HEADER
+Else
+On Error Resume Next
+Do 'dummy do loop
+For i = 65 To 66: For j = 65 To 66: For k = 65 To 66
+For l = 65 To 66: For m = 65 To 66: For i1 = 65 To 66
+For i2 = 65 To 66: For i3 = 65 To 66: For i4 = 65 To 66
+For i5 = 65 To 66: For i6 = 65 To 66: For n = 32 To 126
+With ActiveWorkbook
+.Unprotect Chr(i) &amp; Chr(j) &amp; Chr(k) &amp; _
+Chr(l) &amp; Chr(m) &amp; Chr(i1) &amp; Chr(i2) &amp; _
+Chr(i3) &amp; Chr(i4) &amp; Chr(i5) &amp; Chr(i6) &amp; Chr(n)
+If .ProtectStructure = False And _
+.ProtectWindows = False Then
+PWord1 = Chr(i) &amp; Chr(j) &amp; Chr(k) &amp; Chr(l) &amp; _
+Chr(m) &amp; Chr(i1) &amp; Chr(i2) &amp; Chr(i3) &amp; _
+Chr(i4) &amp; Chr(i5) &amp; Chr(i6) &amp; Chr(n)
+MsgBox Application.Substitute(MSGPWORDFOUND1, _
+&quot;$$&quot;, PWord1), vbInformation, HEADER
+Exit Do 'Bypass all for...nexts
+End If
+End With
+Next: Next: Next: Next: Next: Next
+Next: Next: Next: Next: Next: Next
+Loop Until True
+On Error GoTo 0
+End If
+If WinTag And Not ShTag Then
+MsgBox MSGONLYONE, vbInformation, HEADER
+Exit Sub
+End If
+On Error Resume Next
+For Each w1 In Worksheets
+'Attempt clearance with PWord1
+w1.Unprotect PWord1
+Next w1
+On Error GoTo 0
+ShTag = False
+For Each w1 In Worksheets
+'Checks for all clear ShTag triggered to 1 if not.
+ShTag = ShTag Or w1.ProtectContents
+Next w1
+If ShTag Then
+For Each w1 In Worksheets
+With w1
+If .ProtectContents Then
+On Error Resume Next
+Do 'Dummy do loop
+For i = 65 To 66: For j = 65 To 66: For k = 65 To 66
+For l = 65 To 66: For m = 65 To 66: For i1 = 65 To 66
+For i2 = 65 To 66: For i3 = 65 To 66: For i4 = 65 To 66
+For i5 = 65 To 66: For i6 = 65 To 66: For n = 32 To 126
+.Unprotect Chr(i) &amp; Chr(j) &amp; Chr(k) &amp; _
+Chr(l) &amp; Chr(m) &amp; Chr(i1) &amp; Chr(i2) &amp; Chr(i3) &amp; _
+Chr(i4) &amp; Chr(i5) &amp; Chr(i6) &amp; Chr(n)
+If Not .ProtectContents Then
+PWord1 = Chr(i) &amp; Chr(j) &amp; Chr(k) &amp; Chr(l) &amp; _
+Chr(m) &amp; Chr(i1) &amp; Chr(i2) &amp; Chr(i3) &amp; _
+Chr(i4) &amp; Chr(i5) &amp; Chr(i6) &amp; Chr(n)
+MsgBox Application.Substitute(MSGPWORDFOUND2, _
+&quot;$$&quot;, PWord1), vbInformation, HEADER
+'leverage finding Pword by trying on other sheets
+For Each w2 In Worksheets
+w2.Unprotect PWord1
+Next w2
+Exit Do 'Bypass all for...nexts
+End If
+Next: Next: Next: Next: Next: Next
+Next: Next: Next: Next: Next: Next
+Loop Until True
+On Error GoTo 0
+End If
+End With
+Next w1
+End If
+MsgBox ALLCLEAR &amp; AUTHORS &amp; VERSION &amp; REPBACK, vbInformation, HEADER
+End Sub
+
+</code></pre>
+<p>6、粘贴上面的代码后，<strong>直接关闭编辑窗口</strong>
+7、依次点击<strong>菜单栏上的「工具」—「宏」— 「宏」</strong>,选 AllInternalPasswords, <strong>运行</strong></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-6.png?raw=true" alt="excel-cracker-6"></p>
+<p>8、运行会依次弹出4个窗口，第3张图就是带密码的，分别如下：</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-tips1.png?raw=true" alt="excel-cracker-tips1"></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-tips2.png?raw=true" alt="excel-cracker-tips2"></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-tips3.png?raw=true" alt="excel-cracker-tips3"></p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/excel-crack/excel-cracker-tips4.png?raw=true" alt="excel-cracker-tips4"></p>
 
             </article>
           </div>
@@ -333,6 +498,13 @@
             </div>
           </div>
         </div>
+          
+            <nav class="navigation pagination" role="navigation">
+              <h2 class="screen-reader-text">Posts navigation</h2>
+              <div class="nav-links">
+                <a class="next page-numbers" href="https://suremotoo.site/blog//post/disable-chrome-dark-mode">下一篇->禁用 Chrome 的黑色模式/Dark Mode</a>
+              </div>
+            </nav>
           
       </div>
       <section id="comments" class="comments">

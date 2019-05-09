@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>/Users/suremotoo/Documents/Gridea/output</id>
+    <title>Suremotoo&apos;s Blog</title>
+    <updated>2019-05-08T06:39:40.853Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="/Users/suremotoo/Documents/Gridea/output"/>
+    <link rel="self" href="/Users/suremotoo/Documents/Gridea/output/atom.xml"/>
+    <subtitle>每天叫醒你的不是闹铃，而是梦想</subtitle>
+    <logo>/Users/suremotoo/Documents/Gridea/output/images/avatar.png</logo>
+    <icon>/Users/suremotoo/Documents/Gridea/output/favicon.ico</icon>
+    <rights>All rights reserved 2019, Suremotoo&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[git安装教程（windows系统）]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/git-install-win/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/git-install-win/index.html">
+        </link>
+        <updated>2019-05-06T09:33:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>Git 可是当今最流行的版本控制软件！</em></p>
+<h4 id="第一步下载git">第一步，下载Git</h4>
+<p>https://git-scm.com/download/win</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><em>Git 可是当今最流行的版本控制软件！</em></p>
+<h4 id="第一步下载git">第一步，下载Git</h4>
+<p>https://git-scm.com/download/win</p>
+<!-- more --> 
+<h4 id="第二步具体安装">第二步，具体安装</h4>
+<h5 id="1-下载好安装包后打开先选择需要安装的组件如果不懂就全部安装吧">1. 下载好安装包后，打开先选择需要安装的组件（如果不懂就全部安装吧 <strong>:)</strong>  ）</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-1.png?raw=true" alt="git-install-win-1"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4859018"><label class="task-list-item-label" for="task-item-4859018"> Additional icons  附加图标</label></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3313095"><label class="task-list-item-label" for="task-item-3313095"> On the Desktop 添加图标到桌面上</label></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3141397"><label class="task-list-item-label" for="task-item-3141397"> Windows Explorer integration Windows 资源管理器集成鼠标右键菜单</label></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8731396"><label class="task-list-item-label" for="task-item-8731396"> Git Bash Here</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7668496"><label class="task-list-item-label" for="task-item-7668496"> Git GUI Here</label></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5860375"><label class="task-list-item-label" for="task-item-5860375"> Git LFS (Large File Support) 大文件支持</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7748510"> Associate .git* configuration files with the default text editor
+<label class="task-list-item-label" for="task-item-7748510"> Associate .git* configuration files with the default text editor 
+将 .git 配置文件与默认文本编辑器相关联</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8966869"> Associate .sh files to be run with Bash
+<label class="task-list-item-label" for="task-item-8966869"> Associate .sh files to be run with Bash
+将.sh文件关联到Bash运行</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8531042"> Use a TrueType font in all console windows
+<label class="task-list-item-label" for="task-item-8531042"> Use a TrueType font in all console windows
+在所有控制台窗口中使用TrueType字体</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7075211"> Check daily for Git for Windows updates
+<label class="task-list-item-label" for="task-item-7075211"> Check daily for Git for Windows updates
+每天检查Git是否有Windows更新</label></p>
+</li>
+</ul>
+<h5 id="2-选择git的编辑器通常选择-vim">2. 选择git的编辑器，通常选择 vim</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-2.png?raw=true" alt="git-install-win-2"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4377097"> Use the Nano editor by default
+<label class="task-list-item-label" for="task-item-4377097"> Use the Nano editor by default
+默认使用 Nano 编辑器</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4759580"> Use Vim (The ubiquitous text editor) as Git's default editor
+<label class="task-list-item-label" for="task-item-4759580"> Use Vim (The ubiquitous text editor) as Git's default editor
+使用 Vim 作为 Git 的默认编辑器</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6503890"> Use Notepad++ as Git's default editor
+<label class="task-list-item-label" for="task-item-6503890"> Use Notepad++ as Git's default editor
+使用 Notepad++ 作为 Git 的默认编辑器</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6287472"> Use Visual Studio Code as Git's default editor
+<label class="task-list-item-label" for="task-item-6287472"> Use Visual Studio Code as Git's default editor
+使用 Visual Studio Code 作为 Git 的默认编辑器</label></p>
+</li>
+</ul>
+<h5 id="3-配置环境变量-span-stylecolor-red很重要span">3. 配置环境变量-<span style="color: red;"><em><strong>很重要</strong></em></span></h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-3-environment.png?raw=true" alt="git-install-win-3"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4179017"> Use Git from Git Bash only
+<label class="task-list-item-label" for="task-item-4179017"> Use Git from Git Bash only
+这是最安全的选择，因为您的PATH根本不会被修改。您只能使用 Git Bash 的 Git 命令行工具。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7498671"> Use Git from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-7498671"> Use Git from the Windows Command Prompt
+这个选项被认为是安全的，因为它只向PATH添加一些最小的 Git包，以避免使用可选的Unix工具混淆环境。 您将能够从 Git Bash 和 Windows 命令提示符中使用 Git。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7333648"> Use Git and optional Unix tools from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-7333648"> Use Git and optional Unix tools from the Windows Command Prompt
+Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
+</li>
+</ul>
+<p>警告：这将覆盖Windows工具，如 “ find 和 sort ”。只有在了解其含义后才使用此选项。</p>
+<h5 id="4-传输设置-默认即可">4. 传输设置-默认即可</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-4.png?raw=true" alt="git-install-win-4"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2984528"> Use the OpenSSL library   使用 OpenSSL 库
+<label class="task-list-item-label" for="task-item-2984528"> Use the OpenSSL library   使用 OpenSSL 库
+服务器证书将使用ca-bundle.crt文件进行验证。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1754624"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+<label class="task-list-item-label" for="task-item-1754624"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+服务器证书将使用Windows证书存储验证。此选项还允许您使用公司的内部根CA证书，例如， 通过Active Directory Domain Services</label></p>
+</li>
+</ul>
+<h5 id="5-配置行结束标记-默认即可">5. 配置行结束标记-默认即可</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-5.png?raw=true" alt="git-install-win-5"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5647579"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+<label class="task-list-item-label" for="task-item-5647579"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+在检出文本文件时，Git会将LF转换为CRLF。当提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Windows上推荐的设置（“core.autocrlf”设置为“true”）</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7959619"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+<label class="task-list-item-label" for="task-item-7959619"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+在检出文本文件时，Git不会执行任何转换。 提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Unix上的推荐设置 （“core.autocrlf”设置为“input”）</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3155695"> Checkout as-is,commit as-is   按原样检出，原样提交
+<label class="task-list-item-label" for="task-item-3155695"> Checkout as-is,commit as-is   按原样检出，原样提交
+在检出或提交文本文件时，Git不会执行任何转换。对于跨平台项目，不推荐使用此选项（“core.autocrlf”设置为“false”）</label></p>
+</li>
+</ul>
+<h5 id="6配置终端模拟器默认即可">6.配置终端模拟器，默认即可</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-6.png?raw=true" alt="git-install-win-6"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2027570"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+<label class="task-list-item-label" for="task-item-2027570"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+Git Bash将使用MinTTY作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选区和Unicode字体。 Windows控制台程序（如交互式Python）必须通过'winpty'启动才能在MinTTY中运行。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8374861"> Use Windows' default console window     默认使用windows自己
+<label class="task-list-item-label" for="task-item-8374861"> Use Windows' default console window     默认使用windows自己
+Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以与Win32控制台程序（如交互式Python或node.js）一起使用，但默认的回滚非常有限，需要配置为使用unicode 字体以正确显示非ASCII字符，并且在Windows 10之前，其窗口不能自由调整大小，并且只允许矩形文本选择。</label></p>
+</li>
+</ul>
+<h5 id="7其他配置默认即可">7.其他配置，默认即可</h5>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/git-img/git-install-win-7.png?raw=true" alt="git-install-win-7"></p>
+<hr>
+<p><em><strong>附译文：</strong></em></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6424953"> Enable file system caching   启用文件系统缓存
+<label class="task-list-item-label" for="task-item-6424953"> Enable file system caching   启用文件系统缓存
+文件系统数据将被批量读取并缓存在内存中用于某些操作（“core.fscache”设置为“true”）。 这提供了显着的性能提升。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1844846"> Enable Git Credential Manager   启用Git凭证管理器
+<label class="task-list-item-label" for="task-item-1844846"> Enable Git Credential Manager   启用Git凭证管理器
+Windows的Git凭证管理器为Windows提供安全的Git凭证存储，最显着的是对Visual Studio Team Services和GitHub的多因素身份验证支持。 （需要.NET Framework v4.5.1或更高版本）。</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8148409"> Enable symbolic links   启用符号链接
+<label class="task-list-item-label" for="task-item-8148409"> Enable symbolic links   启用符号链接
+启用符号链接（需要SeCreateSymbolicLink权限）。请注意，现有存储库不受此设置的影响。</label></p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[禁用 Chrome 的黑色模式/Dark Mode]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/disable-chrome-dark-mode/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/disable-chrome-dark-mode/index.html">
+        </link>
+        <updated>2019-05-04T01:20:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>macOS Mojave 中引入了系统层面的黑色模式，Chrome 73 在应用中支行了这一模式，即系统设置为黑色模式时，Chrome 会自动适应切换到 Dark Mode。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>macOS Mojave 中引入了系统层面的黑色模式，Chrome 73 在应用中支行了这一模式，即系统设置为黑色模式时，Chrome 会自动适应切换到 Dark Mode。</p>
+<!-- more -->
+<p><em><strong>Chrome 跟随系统设置的黑色模式</strong></em>
+<img src="https://i.loli.net/2019/05/04/5cccf17a277d9.png" alt="chrome-system-dark.png" title="chrome-system-dark.png" />
+不得不说，深色模式总是很受欢迎～</p>
+<p>但其实黑色模式下标题与顶部系统菜单融为一体，且黑色模式下 Chrome 标签上内容辨识度也不高了，看起来还是有点别扭。更重要的是，主题没选好，可能就会导致如下图的情况咯（上面是chrome开启深色模式，下面是关闭深色模式。）
+<em><strong>Chrome 黑色模式下与普通模式的对比</strong></em>
+<img src="https://i.loli.net/2019/05/04/5cccf179badba.png" alt="chrome-diff.png" title="chrome-diff.png" />
+很明显，不开深色模式更舒服（可能chrome的主题有关系，大家自己去尝试）～
+所以决定系统使用 Dark Mode 的情况下将 Chrome 的黑色禁用。</p>
+<p>通过命令行中设置 <strong>defaults</strong> 值可达到目的。</p>
+<pre><code class="language-shell">$ defaults write com.google.Chrome NSRequiresAquaSystemAppearance -bool Yes
+</code></pre>
+<p>如果想恢复默认，只需要将刚才设置的值删掉或者将 Yes 设置成 No。</p>
+<pre><code class="language-shell">$ defaults delete com.google.Chrome NSRequiresAquaSystemAppearance
+</code></pre>
+<h3 id="禁用任意-app-的-dark-mode">禁用任意 App 的 Dark Mode</h3>
+<p>推而广之，不仅可禁止 Chrome 进入 Dark Mode，还可让其他任意 App 不进入 Dark Mode，如果该应用支持过 Dark Mode 的话。只需要找出该应用的打包发布的 bundle id 即可。这个 id 可通过下面的命令来得到。比如查看 Canary 版本的 Chrome：</p>
+<pre><code class="language-shell">$ osascript -e 'id of app &quot;Google Chrome Canary&quot;' 
+com.google.Chrome.canary
+</code></pre>
+<p>其中 Google Chrome Canary （不区分大小写）是你在程序文件夹下看到的 .app 后缀的那个文件的文件名，比如这里 Google Chrome Canary.app。得到的 id 为 com.google.Chrome.canary 再代入最上面的命令中即可。</p>
+<pre><code class="language-shell">$ defaults write com.google.Chrome.canary NSRequiresAquaSystemAppearance -bool Yes
+</code></pre>
+<p>这里 id 是区分大小写的，写错不生效。</p>
+<p>要恢复默认时同理。</p>
+<h3 id="其他默认值">其他默认值</h3>
+<p>通过 <strong>defaults read</strong> 可查看到所有应用已经存在的的 defaults 值。</p>
+<pre><code class="language-shell">$ defaults read &gt;&gt; defaults.txt
+</code></pre>
+<p>打开 defaults.txt 后搜索相应 app 的 id 可看到其所有可用值的列表。比如搜索 com.google.chrome</p>
+<pre><code>{
+      &quot;com.google.Chrome&quot; =     {
+        KeychainReauthorizeInAppSpring2017 = 2;
+        KeychainReauthorizeInAppSpring2017Success = 1;
+        LastRunAppBundlePath = &quot;/Applications/Google Chrome.app&quot;;
+        ...
+    };
+    &quot;com.google.Chrome.canary&quot; =     {
+        KeychainReauthorizeInAppSpring2017 = 1;
+        KeychainReauthorizeInAppSpring2017Success = 1;
+        LastRunAppBundlePath = &quot;/Applications/Google Chrome Canary.app&quot;;
+        ...
+    };
+}
+</code></pre>
+<p>本文转载<a href="https://www.cnblogs.com/Wayou/p/disable_mac_chrome_dark_mode.html">Wayou</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[apidoc 生成接口文档]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/apidoc-sheng-cheng-jie-kou-wen-dang/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/apidoc-sheng-cheng-jie-kou-wen-dang/index.html">
+        </link>
+        <updated>2019-04-22T11:27:23.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="快速生成接口文档html格式-markdown格式">快速生成接口文档HTML格式、MARKDOWN格式</h2>
+<h2 id="生成html格式">生成HTML格式</h2>
+<h3 id="一-安装apidoc">一、安装apidoc</h3>
+<p><strong><u>安装前，请确保本机已安装node</u></strong></p>
+<pre><code class="language-bash">npm install apidoc -g
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="快速生成接口文档html格式-markdown格式">快速生成接口文档HTML格式、MARKDOWN格式</h2>
+<h2 id="生成html格式">生成HTML格式</h2>
+<h3 id="一-安装apidoc">一、安装apidoc</h3>
+<p><strong><u>安装前，请确保本机已安装node</u></strong></p>
+<pre><code class="language-bash">npm install apidoc -g
+</code></pre>
+<!--more-->
+<h3 id="二-安装后创建apidoc-结构">二、安装后创建APIDOC 结构</h3>
+<p>可以参考我的文件夹目录：</p>
+<pre><code class="language-bash">──doc                   文件夹
+├── apidoc.json         配置文件
+├── gen                 生成api文档的目录
+├── rules               生成文档参数文件夹
+│   └── Demo.java       具体api
+├── footer.md           页脚配置（可选）
+├── header.md           头部配置（可选）
+└── template            模板（可选）
+</code></pre>
+<p>先创建个文件夹命名为: <strong>doc</strong>  (名字随意) ，紧接着在文件夹中创建 <strong>apidoc.json</strong> 文件，apidoc.json 的内容可参考如下（实际使用中, 删除注释）:</p>
+<p><em><strong>apidoc.json</strong></em></p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;apidoc-example&quot;,
+  &quot;version&quot;: &quot;0.3.0&quot;,
+  &quot;description&quot;: &quot;apiDoc example project&quot;,
+  &quot;title&quot;: &quot;Custom apiDoc browser title&quot;,
+  &quot;url&quot;: &quot;https: {URL}/&quot;,
+  &quot;header&quot;: {
+    &quot;title&quot;: &quot;&quot;,//自定义头部标题
+    &quot;filename&quot;: &quot;header.md&quot; // header文件
+  },
+  &quot;footer&quot;: {
+    &quot;title&quot;: &quot;&quot;, //自定义页脚标题
+    &quot;filename&quot;: &quot;footer.md&quot; // footer文件
+  },
+  &quot;template&quot;: {
+    &quot;withGenerator&quot;: false, // 是否展示apidoc版权生成信息
+    &quot;withCompare&quot;: false // 是否开启版本对比
+  }
+}
+</code></pre>
+<p>实际上，最简单的apidoc.json 文件可以只写: <strong>name、version、description</strong>就可以了，其他的都是可选配置，如下：</p>
+<p><em><strong>apidoc.json（精简版）</strong></em></p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;example&quot;,
+  &quot;version&quot;: &quot;0.1.0&quot;,
+  &quot;description&quot;: &quot;A basic apiDoc example&quot;
+}
+</code></pre>
+<p>在 <strong>doc</strong> 文件夹下，创建 <strong>rules</strong> 文件夹，再在 <strong>rules</strong> 文件夹下创建 <strong>Demo.java</strong>  文件夹，demo.java 内容使用样例：</p>
+<p><em><strong>Demo.java</strong></em></p>
+<pre><code class="language-java">/**
+ * @api {get} /user/:id Request User information
+ * @apiName GetUser
+ * @apiGroup User
+ *
+ * @apiParam {Number} id Users unique ID.
+ *
+ * @apiSuccess {String} firstname Firstname of the User.
+ * @apiSuccess {String} lastname  Lastname of the User.
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       &quot;firstname&quot;: &quot;John&quot;,
+ *       &quot;lastname&quot;: &quot;Doe&quot;
+ *     }
+ *
+ * @apiError UserNotFound The id of the User was not found.
+ *
+ * @apiErrorExample Error-Response:
+ *     HTTP/1.1 404 Not Found
+ *     {
+ *       &quot;error&quot;: &quot;UserNotFound&quot;
+ *     }
+ */
+public void getUser(String firstname, String lastname);
+</code></pre>
+<h3 id="三-生成文档">三、生成文档</h3>
+<p>执行生成命令</p>
+<pre><code class="language-bash">apidoc -i rules/ -o gen/
+</code></pre>
+<p><u><strong>命令的意思就是：将 rules 文件夹下的所有配置好的文件生成网页形式的文档, 并将文件生成到 gen 文件夹下</strong></u></p>
+<p>Bingo～</p>
+<hr>
+<h2 id="生成markdown形式">生成markdown形式</h2>
+<h3 id="一-安装apidoc-markdown">一、安装apidoc-markdown</h3>
+<p><strong><u>安装前，请确保本机已安装node</u></strong></p>
+<pre><code class="language-bash">npm install apidoc-markdown -g
+</code></pre>
+<h3 id="二-生成文档">二、生成文档</h3>
+<p>执行生成命令</p>
+<pre><code class="language-bash">apidoc-markdown -p gen -o gen/doc_markdown.md
+</code></pre>
+<p><strong><u>命令的意思就是：将 gen 文件夹下生成好的网页形式的文档, 转换成</u> doc_markdown.md 文件</strong></p>
+<p>⚠️⚠️注意：要使用apidoc-markdown，先用apidoc生成网页形式文档，再进行markdown文件的生成</p>
+<h2 id="apidoc-命令参数表">apidoc 命令参数表</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">-f --file-filters</td>
+<td>指定读取文件的文件名过滤正则表达式(可指定多个)<br>例如: <code style="color: #f01414;">apidoc -f ".*\\.js$" -f ".*\\.ts$"</code> 意为只读取后缀名为js和ts的文件<br>默认值:<code style="color: #f01414;">.clj .cls .coffee .cpp .cs .dart .erl .exs?</code><br> <code style="color: #f01414;">.go .groovy .ino? .java .js .jsx .kt .litcoffee lua .p .php? .pl .pm .py .rb .scala .ts .vue</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-e --exclude-filters</td>
+<td>指定不读取的文件名过滤正则表达式(可指定多个)<br>例如:<code style="color: #f01414;">apidoc -e ".*\\.js$"</code> 意为不读取后缀名为js的文件<br>默认:<code style="color: #f01414;">''</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-i, --input</td>
+<td>指定读取源文件的目录<br>例如：<code style="color: #f01414;">apidoc -i myapp/</code> 意为读取<code style="color: #f01414;">myapp/</code>目录下面的源文件<br>默认值:<code style="color: #f01414;">./</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-o, --output</td>
+<td>指定输出文档的目录<br>例如：<code style="color: #f01414;">apidoc -o doc/</code> 意为输出文档到<code style="color: #f01414;">doc</code>目录下<br>默认值:<code style="color: #f01414;">./doc/</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-t, --template</td>
+<td>指定输出的模板文件<br>例如:<code style="color: #f01414;">apidoc -t mytemplate/</code><br>默认:<code style="color: #f01414;">path.join(__dirname, '../template/')(使用默认模板)</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-c, --config</td>
+<td>指定包含配置文件(apidoc.json)的目录<br>例如:<code style="color: #f01414;">apidoc -c config/</code><br>默认:<code style="color: #f01414;">./</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-p, --private</td>
+<td>输出的文档中是否包含私有api<br>例如:<code style="color: #f01414;">apidoc -p true</code> <br>默认:<code style="color: #f01414;">false</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-v, --verbose</td>
+<td>是否输出详细的debug信息<br>例如:<code style="color: #f01414;">apidoc -v true</code><br>默认:<code style="color: #f01414;">false</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-h, --help</td>
+<td>查看帮助文档</td>
+</tr>
+</tbody>
+</table>
+<h2 id="apidoc-markdown-命令参数表">apidoc-markdown 命令参数表</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">-p, --path</td>
+<td>指定apidoc生成的文档目录</td>
+</tr>
+<tr>
+<td style="text-align:center">-o, --output</td>
+<td>指定输出的markdown文件路径(包含文件名)<br>例如:<code style="color: #f01414;">apidoc-markdown -o output_dir/markdown_name.md</code>
+</td>
+</tr>
+<tr>
+<td style="text-align:center">-t, --template</td>
+<td>指定生成markdown文件的模板文件(EJS模板文件)<br>默认:<code style="color: #f01414;">使用工具自带的模板文件</code>
+</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac将snap包发布到SnapStore]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/mac-jiang-snap-bao-fa-bu-dao-snapstore/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/mac-jiang-snap-bao-fa-bu-dao-snapstore/index.html">
+        </link>
+        <updated>2019-04-22T11:21:36.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="macos-用snapcraft-将-snap-包发布到-snap-store">MacOS 用snapcraft 将 snap 包发布到 snap store</h3>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="macos-用snapcraft-将-snap-包发布到-snap-store">MacOS 用snapcraft 将 snap 包发布到 snap store</h3>
+<!--more-->
+<h2 id="第一步-注册开发者账号">第一步 注册开发者账号</h2>
+<p>首先，请在Snap Store中为您的快照 <a href="https://docs.snapcraft.io/t/registering-your-app-name/6793">注册一个名称</a> 。</p>
+<h2 id="第二步安装-snapcraft">第二步安装 snapcraft</h2>
+<p>如果没有安装 homebrew 的可以先去安装 homebrew。</p>
+<pre><code>brew install snapcraft
+</code></pre>
+<p>返回终端和.snap文件的位置。您现在需要使用Snapcraft开发人员帐户凭据验证<em>snapcraft</em>命令。这可以通过以下方式完成：</p>
+<pre><code>snapcraft login
+</code></pre>
+<p>回车会提示输入开发者账号邮箱和密码，验证通过后会提示如下图：
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/snapcraft-logion.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>接下来，上传snap包快照（这里以 <a href="https://suremotoo.site/e-tools">E-tools</a>为例）并将其释放到 <a href="https://docs.snapcraft.io/t/channels/551">稳定通道中</a> ：</p>
+<pre><code>snapcraft push --release=stable E-tools_1.3.4_amd64.snap
+</code></pre>
+<p>回车会进行上传：
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/publish-success.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>上传成功啦！可以去<a href="https://snapcraft.io/store">Snap Store | Snapcraft</a> 网站搜索 e-tools 软件。
+进入详情页面，点击 &quot;Update its listing information here&quot; 即可修改介绍信息，添加snap 图标、介绍信息、开发者网站、邮箱以及介绍图片视频等信息。</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/linux/update-list-information.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="snapcraft-logion-success"></p></p>
+<p>Bingo.🎉🎉</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redis 进击]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/redis-jin-ji/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/redis-jin-ji/index.html">
+        </link>
+        <updated>2019-04-22T11:19:46.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="nosql">NoSQL</h2>
+<p>not only sql；
+全新数据库理念；非关系型数据库；</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="nosql">NoSQL</h2>
+<p>not only sql；
+全新数据库理念；非关系型数据库；</p>
+<!--more-->
+<h2 id="nosql-特点">NoSQL 特点</h2>
+<ul>
+<li>易扩展</li>
+<li>灵活的数据模型</li>
+<li>大数据量,高性能</li>
+<li>高可用</li>
+</ul>
+<h2 id="nosql-数据库的四大分类">NoSQL 数据库的四大分类</h2>
+<ul>
+<li>键值对存储 eg: redis, 优势：查询快    劣势：数据缺少结构化</li>
+<li>列存储 eg: HBase,优势：查询快    劣势：功能相对局限</li>
+<li>文档数据库 eg: MongoDB, 优势：数据要求不是很严格    劣势：查询性能不是特别高，缺少统一查询语法</li>
+<li>图形数据库 eg: InfoGrid, 优势：利用图结构相关算法    劣势：需要对图进行计算,不容易做分布式集群方案</li>
+</ul>
+<h2 id="nosql-产品">NoSQL 产品</h2>
+<p>MongoDB、Redis、Riak等等</p>
+<h2 id="为什么需要-redis">为什么需要 Redis ？</h2>
+<ul>
+<li>High Performance  高并发读写；</li>
+<li>Huge Storage  海量数据的高效率存储和访问；</li>
+<li>High Scalability &amp;&amp; High Availability  高可扩展性和高可用性；</li>
+</ul>
+<h2 id="redis-概述">Redis 概述</h2>
+<p>高性能键值对数据库，支持的简直数据类型：</p>
+<ul>
+<li>字符串类型</li>
+<li>列表类型</li>
+<li>有序集合类型</li>
+<li>散列类型</li>
+<li>集合类型</li>
+</ul>
+<h2 id="redis-应用场景">Redis 应用场景</h2>
+<ul>
+<li>缓存</li>
+<li>任务队列</li>
+<li>网站访问统计</li>
+<li>数据过期处理</li>
+<li>应用排行榜</li>
+<li>分布式集群架构中的 session 分离</li>
+</ul>
+<h2 id="redis-安装">Redis 安装</h2>
+<h4 id="mac">Mac</h4>
+<p>1、执行 <code>brew install redis</code>
+2、启动 redis，可以使用后台服务启动 <code>brew services start redis</code>。或者直接启动：<code>redis-server /usr/local/etc/redis.conf</code></p>
+<h2 id="启动配置">启动配置</h2>
+<p>通过使用 Homebrew，可以大大降低在 Mac OS X 上设置和配置 Redis 开发环境的成本。</p>
+<p><code>brew install redis</code></p>
+<p>通过以上命令执行安装。</p>
+<p>设置开机启动 Redis</p>
+<p><code>ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents</code></p>
+<p>通过 launchctl 启动 Redis 服务</p>
+<p><code>launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist</code></p>
+<p>使用配置文件启动 Redis 服务</p>
+<p><code>redis-server /usr/local/etc/redis.conf</code></p>
+<p>停用开机启动的 Redis</p>
+<p><code>launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist</code></p>
+<p>Redis 配置文件存放位置</p>
+<p><code>/usr/local/etc/redis.conf</code></p>
+<p>卸载 Redis 和依赖文件</p>
+<p><code>brew uninstall redis</code></p>
+<p><code>rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist</code></p>
+<p>获取 Redis 包信息</p>
+<p><code>brew info redis</code></p>
+<p>测试 Redis 服务是否正在运行</p>
+<p><code>redis-cli ping</code></p>
+<p>如果回复 “PONG”，表明正常运行！</p>
+<h2 id="jedis">Jedis</h2>
+<p>Jedis 是 Redis 官方首选的 Java 客户端开发包</p>
+<p>入门使用</p>
+<pre><code class="language-java">/**
+ * 项目名：demo
+ * 包名：com.example
+ * 类名：Test
+ * 描述：
+ *
+ * @author Suremotoo
+ * @create 2018-05-10 09:08
+ */
+public class Test {
+
+    @org.junit.Test
+    public void test() {
+        // 1.连接 redis
+        Jedis jedis = new Jedis(&quot;127.0.0.1&quot;, 6379);
+        // 2.存储数据
+        jedis.set(&quot;name&quot;, &quot;Suremotoo&quot;);
+        // 3.获取数据
+        String value = jedis.get(&quot;name&quot;);
+        // 4.控制台打印测试结果
+        System.out.println(&quot;value = &quot; + value);
+        // 5.关闭连接
+        jedis.close();
+    }
+
+}
+</code></pre>
+<p><strong>如果是连接的 Redis 在 Linux 服务器上，需要设置防火墙</strong></p>
+<pre><code>vim /etc/sysconfig/iptables
+# 添加一行
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 6379 -j ACCEPT
+</code></pre>
+<p>:wq 保存退出, <strong>最后重启 linux 服务器防火墙</strong></p>
+<p><code>service iptables restart</code></p>
+<h2 id="jedis-与-jdbc-很类似也有连接池">Jedis 与 JDBC 很类似，也有连接池</h2>
+<pre><code class="language-java">    /**
+     * 连接池方式连接
+     */
+    @org.junit.Test
+    public void poolTest() {
+        // 获得连接池的配置对象
+        JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+        // 设置最大连接数
+        jedisPoolConfig.setMaxTotal(30);
+        // 设置最大空闲连接数
+        jedisPoolConfig.setMaxIdle(10);
+
+        // 获得Jedis 连接池
+        JedisPool jedisPool = new JedisPool(jedisPoolConfig, &quot;127.0.0.1&quot;, 6379);
+
+        // Jedis 对象
+        Jedis jedis = null;
+
+        try {
+            // 通过连接池获得连接
+            jedis = jedisPool.getResource();
+            // 设置数据
+            jedis.set(&quot;name&quot;, &quot;Suremotoo&quot;);
+            // 获取数据
+            String value = jedis.get(&quot;name&quot;);
+            System.out.println(&quot;value = &quot; + value);
+            if (value != null &amp;&amp; &quot;&quot;.equals(value)) {
+                jedis.del(&quot;name&quot;);
+            } else {
+                System.out.println(&quot; 空 &quot;);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+
+            if (jedisPool != null) {
+                jedisPool.close();
+            }
+        }
+    }
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Macos 破解软件下载]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/macos-po-jie-ruan-jian-xia-zai/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/macos-po-jie-ruan-jian-xia-zai/index.html">
+        </link>
+        <updated>2019-04-21T13:58:53.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id=""></h2>
+<p>本教程是分享一个，下载 MacOS 系统破解的APP软件资源。提供 mac 破解软件的网站不少，但是很多都有下载需要会员、积分或者充值的限制，我这里发现个可以免费下载的网站，而且还不需要注册哟。</p>
+<p><em>本文章仅供学习参考</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id=""></h2>
+<p>本教程是分享一个，下载 MacOS 系统破解的APP软件资源。提供 mac 破解软件的网站不少，但是很多都有下载需要会员、积分或者充值的限制，我这里发现个可以免费下载的网站，而且还不需要注册哟。</p>
+<p><em>本文章仅供学习参考</em></p>
+<!--more-->
+<h3 id="一-下载软件网址">一、 下载软件网址</h3>
+<p><strong><a href="https://cmacapps.com/">https://cmacapps.com/</a></strong>，就是这个网址。</p>
+<h3 id="二-下载技巧">二、下载技巧</h3>
+<p>由于该网站会有多个广告，为了让大家不误下软件，我这边分享个技巧：</p>
+<ol>
+<li>
+<p>首次进入网站后，点击网站任何一个空白处，如果有弹出新的网页窗口，新弹出的窗口基本就是广告；第二次点击就不会有广告了，如果你点击了下一页，那么第一次点击还是广告，第二次就没有广告了。</p>
+</li>
+<li>
+<p>在搜索框中输入软件的关键字后，要多等待会，网站会加载相关的结果，如图：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/cmacapps_result.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="搜索展示图"></p>
+我们就以cleanMyMac为例，点击后进入下载页。</p>
+</li>
+<li>
+<p>进入软件的下载介绍页面后，往下滚动，找到如下图的按钮：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/cmacapps_appsinfo.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="下载按钮展示图"></p>
+两个按钮我们可以点击一个就行，会打开一个新窗口，新窗口页面如果是类似如下图，就正确了。
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/cmacapps_btn_down.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="下载按钮展示图2"></p></p>
+</li>
+<li>
+<p>具体下载按钮，我们再点击灰色downloadNow，如图：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/cmacapps_btn_download.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="下载按钮展示图3"></p>
+如果点击打开新窗口，新窗口基本是广告，可以关掉，继续点灰色downloadNow按钮，<strong>点击后，不再弹出新窗口，当前页面变化了，就是正确了。</strong> 此时页面会有类似下图的Google机器人验证:<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/google_check.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="谷歌机器人验证"></p>
+点击后如果出现✅就是验证成功啦，验证成功如下图：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/google_check_success.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="谷歌机器人验证"></p>
+如果下载过多，可能会出现点击图片的验证，基本都是很简单的，到时候如果看不懂，就赶紧翻译吧！ :)
+<em><span style="color:red;"> 注意：谷歌机器人验证需要翻墙，这里其实用谷歌访问助手插件就行。</span></em></p>
+</li>
+<li>
+<p>基本上验证成功点击 continue 按钮就开始真正的下载了，也就结束了。如果对于下载的大文件，我可以再推荐个软件，使用<a href="https://github.com/yangshun1029/aria2gui/releases/" target="_blank">Aria2GUI</a>，在下载的时候可以复制下载链接，如图：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/cmacapps/cmacapps_download_url.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="复制下载链接"></p>
+然后再使用aria2GUI下载，速度快到你惊喜。</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Githb SSH 配置]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/githb-ssh-pei-zhi/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/githb-ssh-pei-zhi/index.html">
+        </link>
+        <updated>2019-04-21T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="第一步-检查密钥">第一步-检查密钥</h2>
+<h4 id="查看是否有-id_dsa-id_dsapub-文件">查看是否有 id_dsa、id_dsa.pub 文件</h4>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="第一步-检查密钥">第一步-检查密钥</h2>
+<h4 id="查看是否有-id_dsa-id_dsapub-文件">查看是否有 id_dsa、id_dsa.pub 文件</h4>
+<!--more-->
+<pre><code class="language-shell">$ cd ~/.ssh
+$ ls
+authorized_keys   known_hosts   id_rsa    id_rsa.pub 
+</code></pre>
+<p><em><strong>看一下有没有id_rsa和id_rsa.pub(或者是id_dsa和id_dsa.pub之类成对的文件)，有 .pub 后缀的文件就是公钥，另一个文件则是密钥。</strong></em></p>
+<h4 id="假如没有这些文件或者没有-ssh-目录可以用-ssh-keygen-来创建-该程序在-linuxmac-系统上由-ssh-包提供而在-windows-上则包含在-msysgit-包里">假如没有这些文件，或者没有 .ssh 目录，可以用 ssh-keygen 来创建。该程序在 Linux/Mac 系统上由 SSH 包提供，而在 Windows 上则包含在 MSysGit 包里：</h4>
+<!--more-->
+<pre><code>$ ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot;
+
+Creates a new ssh key using the provided email # Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/you/.ssh/id_rsa):
+</code></pre>
+<h4 id="直接按enter就行-然后会提示你输入密码如下如果很注重安全嘛建议输一个如果是私人电脑建议不输入不然你每次pull-push都要输入密码">直接按Enter就行。然后，会提示你输入密码，如下(如果很注重安全嘛，建议输一个；如果是私人电脑，建议不输入，不然你每次pull、push都要输入密码)：</h4>
+<pre><code>Enter same passphrase again: [Type passphrase again]
+</code></pre>
+<h4 id="完了之后大概如下">完了之后，大概如下：</h4>
+<pre><code>Your public key has been saved in 路径省略/.ssh/id_rsa.pub.
+The key fingerprint is  此处省略......
+</code></pre>
+<h3 id="第二步-在github上配置公钥">第二步-在GitHub上配置公钥</h3>
+<h4 id="查看公钥">查看公钥</h4>
+<pre><code class="language-shell">$ cat ~/.ssh/id_rsa.pub
+
+ssh-rsa *******省略
+</code></pre>
+<h4 id="登陆你的github帐户-点击你的头像然后-settings-左栏点击-ssh-and-gpg-keys-点击-new-ssh-key-复制公钥内容粘贴进key文本域内-title域自己随便起个名字就行最后点击-add-key">登陆你的github帐户。点击你的头像，然后 <strong>Settings -&gt; 左栏点击 SSH and GPG keys -&gt; 点击 New SSH key</strong>  ，复制公钥内容，粘贴进“Key”文本域内。 title域，自己随便起个名字就行，最后点击 Add key</h4>
+<h3 id="第三部-验证">第三部-验证</h3>
+<pre><code>$ ssh -T git@github.com
+
+Attempts to ssh to github
+</code></pre>
+<h4 id="如果有如下提示就是成功啦">如果有如下提示就是成功啦</h4>
+<pre><code>Hi xxx! You've successfully authenticated, but GitHub does not # provide shell access.
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Essential Electron 文档]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/essential-electron-wen-dang/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/essential-electron-wen-dang/index.html">
+        </link>
+        <updated>2019-04-21T13:47:05.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="essential-electron">Essential Electron</h1>
+<p>Concise plain-speak about Electron.</p>
+<table>
+<thead>
+<tr>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Electron%E6%98%AF%E4%BB%80%E4%B9%88?">Electron 是什么?</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></td>
+</tr>
+</tbody>
+</table>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="essential-electron">Essential Electron</h1>
+<p>Concise plain-speak about Electron.</p>
+<table>
+<thead>
+<tr>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Electron%E6%98%AF%E4%BB%80%E4%B9%88?">Electron 是什么?</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></td>
+</tr>
+</tbody>
+</table>
+<!--more-->
+<table>
+<thead>
+<tr>
+<th>Development</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6">前提条件</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%A4%E4%B8%AA%E8%BF%9B%E7%A8%8B">两个进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BB%E8%BF%9B%E7%A8%8B">主进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B">渲染进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%83%8F%E8%BF%99%E6%A0%B7%E6%80%9D%E8%80%83">像这样思考</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Development Cont'd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#%E4%BF%9D%E6%8C%81%E9%80%9A%E8%AE%AF">保持通讯</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%80%BB%E8%80%8C%E8%A8%80%E4%B9%8B">总而言之</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%89%93%E5%8C%85">打包</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%9B%B4%E5%A4%9A%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">更多参考资料</a></td>
+</tr>
+</tbody>
+</table>
+<p>Read this in <a href="index.html">English</a> <a href="index-jp.html">Japanese</a>.</p>
+<p><a name="Electron是什么?" id="Electron是什么?"></a></p>
+<h2 id="electron-是什么">Electron 是什么?</h2>
+<p>Electron 是一个可以用 <span class="def">JavaScript、HTML 和 CSS </span>构建桌面应用程序的<span class="def">库</span>。这些应用程序能打包到 Mac、Windows 和 Linux 系统上运行，也能上架到 Mac 和 Windows 的 App Store。</p>
+<h3 id="下一节-为什么它如此重要">下一节: <a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></h3>
+<h3 id="定义">定义:</h3>
+<ul>
+<li><strong>JavaScript, HTML and CSS</strong> 都是 Web 语言，它们是组成网站的一部分，浏览器（如 Chrome）懂得如何将这些代码转为可视化图像。</li>
+<li><strong>Electron 是一个库</strong> Electron 对底层代码进行抽象和封装，让开发者能在此之上构建项目。</li>
+</ul>
+<h3 id="参考资料">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/apps">由Electron构建的项目</a></li>
+<li><a href="http://electron.atom.io/#get-started">Electron API Demos</a> (看看你可以用Electron做什么)</li>
+</ul>
+<p><a name="为什么它如此重要?" id="为什么它如此重要?"></a></p>
+<h2 id="为什么它如此重要">为什么它如此重要?</h2>
+<p>通常来说，每个操作系统的桌面应用都由各自的<span class="def">原生语言</span>进行编写，这意味着需要 3 个团队分别为该应用编写相应版本。而 Electron 则允许你用 Web 语言编写一次即可。</p>
+<h3 id="下一节-它由什么组成">下一节: <a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></h3>
+<h3 id="定义-2">定义:</h3>
+<ul>
+<li><strong>原生（操作系统）语言</strong> 用于开发主流操作系统应用的原生语言的对应关系（大多数情况下）：Mac 对应 Objective C、Linux 对应 C、Windows 对应 C++</li>
+</ul>
+<p><a name="它由什么组成?" id="它由什么组成?"></a></p>
+<h2 id="它由什么组成">它由什么组成?</h2>
+<p>Electron 结合了 <span class="def">Chromium</span>  、 <span class="def">Node.js</span> ，还有像打开文件窗口、通知、图标等这样的用于调用操作系统本地功能的 API。</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/components.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron components"></p></p>
+<h3 id="下一节-开发体验如何">下一节: <a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></h3>
+<h3 id="定义-3">定义:</h3>
+<ul>
+<li><strong>API</strong> 应用程序接口描述了可供您使用库的一组功能。</li>
+<li><strong>Chromium</strong> 由Google创建，这是Google Chrome浏览器使用的开源库。</li>
+<li><strong>Node.js</strong> （或者叫 Node）用于在服务器上编写JavaScript，访问文件系统和网络的工具（您的计算机也是服务器！）</li>
+</ul>
+<h3 id="参考资料-2">参考资料:</h3>
+<ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="http://chromium.org">Chromium</a></li>
+<li><a href="http://electron.atom.io/blog/2016/08/08/electron-internals-using-node-as-a-library">Electron blog post: Using Node as a Library</a> (deep dive)</li>
+<li><a href="http://electron.atom.io/docs/tutorial/electron-versioning/">Electron 版本发展</a></li>
+</ul>
+<p><a name="开发体验如何?" id="开发体验如何?"></a></p>
+<h2 id="开发体验如何">开发体验如何?</h2>
+<p>基于 Electron 的开发就像在开发网页，而且能够无缝地 <span class="def">使用 Node</span>。或者说：在构建一个 Node 应用的同时，通过 HTML 和 CSS 构建界面。另外，你只需为<span class="def">一个浏览器（最新的 Chrome）</span>进行设计（即无需考虑兼容性等）。</p>
+<h3 id="下一节-前提条件">下一节: <a href="#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6">前提条件</a></h3>
+<h3 id="定义-4">定义:</h3>
+<ul>
+<li><strong>使用 Node</strong> 这还不是全部! 除了完整的Node API之外，您还可以使用已经编写和托管在npm上的超过30万个模块，这是Node的包管理器。</li>
+<li><strong>一个浏览器</strong> 并非所有的浏览器都是一样的，网页设计师和开发人员经常不得不多一些时间才能让网站在每个浏览器上的效果看起来都一样。</li>
+<li><strong>最新版 Chrome</strong> 可使用超过90%的ES2015特性，最新的JavaScript，以及炫酷的特性，如CSS变量。</li>
+</ul>
+<h3 id="参考资料-3">参考资料:</h3>
+<ul>
+<li><a href="http://caniuse.com/#home">我可以使用?</a> (查看每个浏览器支持的内容)</li>
+<li><a href="http://blog.chromium.org">更新到 Chrome</a> (Chromium 博客)</li>
+<li><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">CSS 变量</a></li>
+</ul>
+<p><a name="前提条件" id="前提条件"></a></p>
+<h2 id="前提条件">前提条件</h2>
+<p>由于Electron的两大组件都是网站和JavaScript，因此在开始之前，您需要这两者的相关经验。查看一些关于HTML，CSS和JS的教程，并在您的计算机上安装Node。</p>
+<h3 id="定义-5">定义:</h3>
+<ul>
+<li><strong>让我们真正开始</strong>, 学习制作网站和编写Node并不是一夜之间的事情，但希望以下链接可以帮助您入门。</li>
+</ul>
+<h3 id="下一节-两个进程">下一节: <a href="#%E4%B8%A4%E4%B8%AA%E8%BF%9B%E7%A8%8B">两个进程</a></h3>
+<h3 id="参考资料-4">参考资料:</h3>
+<ul>
+<li><a href="https://nodejs.org">安装 Node</a> (chose the LTS version)</li>
+<li><a href="http://nodeschool.io">NodeSchool Tutorials</a> (try learnyounode)</li>
+<li><a href="http://jsforcats.com">JS for Cats</a> (by Max Ogden)</li>
+<li><a href="http://learn.shayhowe.com/html-css">学习 HTML &amp; CSS 编程</a> (by Shay Howe)</li>
+<li><a href="https://css-tricks.com">CSS Tricks</a> (learn CSS best practices and tips)</li>
+<li><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">Mozilla Developer Network</a> (like a dictionary for websites and JavaScript)</li>
+</ul>
+<p><a name="两个进程" id="两个进程"></a></p>
+<h2 id="两个进程">两个进程</h2>
+<p>Electron 有两种进程：『主进程』和『渲染进程』。部分<span class="def">模块</span>只能在两者之一上运行，而有些则无限制。主进程更多地充当幕后角色，而渲染进程则是应用程序的各个窗口。</p>
+<h3 id="定义-6">定义:</h3>
+<ul>
+<li><strong>模块</strong> Electron 的 API 是根据它们的用途进行分组。例如： <code>dialog</code>  模块拥有所有原生 dialog 的 API，如打开文件、保存文件和警告等弹窗。</li>
+</ul>
+<h3 id="下一节-主进程">下一节: <a href="#%E4%B8%BB%E8%BF%9B%E7%A8%8B">主进程</a></h3>
+<h3 id="参考资料-5">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="主进程" id="主进程"></a></p>
+<h2 id="主进程">主进程</h2>
+<p>主进程，通常是一个命名为 <code>main.js</code> 的文件，该文件是每个 Electron 应用的入口。它控制了应用的生命周期（从打开到关闭）。它既能<span class="def">调用原生元素</span>，也能创建新的（多个）渲染进程。另外，Node API 是内置其中的。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/main.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="main process diagram">
+<h3 id="定义-7">定义:</h3>
+<ul>
+<li><strong>调用原生元素</strong> 打开 diglog 和其它操作系统的交互均是参考资料密集型操作，因此都需要在主进程完成,从而不会中断渲染程序进程。</li>
+</ul>
+<h3 id="下一节-渲染进程">下一节: <a href="#%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B">渲染进程</a></h3>
+<h3 id="参考资料-6">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="渲染进程" id="渲染进程"></a></p>
+<h2 id="渲染进程">渲染进程</h2>
+<p>渲染进程是应用的一个浏览器窗口。与主进程不同，它能存在多个,并且相互独立.他们也能是<span class="def">隐藏</span>的。主窗口通常被命名为 <code>index.html</code> 。它们就像典型的 HTML 文件，但 Electron 赋予了它们完整的 Node API。因此，这也是它与浏览器的区别。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/renderer.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="renderer process">
+<h3 id="定义-8">定义:</h3>
+<ul>
+<li><strong>相互独立</strong> 每个渲染进程都是独立的，这意味着某个渲染进程的崩溃，也不会影响其余渲染进程。</li>
+<li><strong>隐藏</strong> 你可以设置隐藏一个窗口，让它在后台执行代码。</li>
+</ul>
+<h3 id="下一节-像这样思考">下一节: <a href="#%E5%83%8F%E8%BF%99%E6%A0%B7%E6%80%9D%E8%80%83">像这样思考</a></h3>
+<h3 id="参考资料-7">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="像这样思考" id="像这样思考"></a></p>
+<h2 id="像这样思考">像这样思考</h2>
+<p>在Chrome（或其他网络浏览器）中，每个选项卡及其网页就像Electron中的单个渲染器进程。如果关闭所有选项卡，Chrome仍然存在，这就像您的主进程一样，您可以打开新窗口或退出应用程序。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/like-this.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Chrome comparison of the two processes">
+<h3 id="参考资料-8">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/tutorial/quick-start/#differences-between-main-process-and-renderer-process">主进程和渲染进程的差异</a></li>
+</ul>
+<h3 id="下一节-保持通讯">下一节: <a href="#%E4%BF%9D%E6%8C%81%E9%80%9A%E8%AE%AF">保持通讯</a></h3>
+<p><a name="保持通讯" id="保持通讯"></a></p>
+<h2 id="保持通讯">保持通讯</h2>
+<p>由于主进程和渲染进程各自负责不同的任务，而对于需要协同完成的任务，它们需要相互通讯。<span class="def">IPC</span>就为此而生，它提供了进程间的通讯。但它只能在主进程与渲染进程之间传递信息（即渲染进程之间不能进行直接通讯）。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/ipc.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="IPC diagram">
+<h3 id="定义-9">定义:</h3>
+<ul>
+<li><strong>IPC</strong> 主进程和渲染进程各自拥有一个 IPC 模块。</li>
+</ul>
+<h3 id="下一节-总而言之">下一节: <a href="#%E6%80%BB%E8%80%8C%E8%A8%80%E4%B9%8B">总而言之</a></h3>
+<p><a name="总而言之" id="总而言之"></a></p>
+<h2 id="总而言之">总而言之</h2>
+<p>Electron 应用就像 Node 应用，它也依赖一个 <span class="def"><code>package.json</code> </span> 文件。该文件定义了哪个文件作为主进程，并因此让 Electron 知道从何启动应用。然后主进程能创建渲染进程，并能使用 IPC 让两者间进行消息传递</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/app-files.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron app components diagram">
+<h3 id="定义-10">定义:</h3>
+<ul>
+<li><strong><code>package.json</code> 文件</strong> 这是Node应用程序中的一个常用文件，其中包含有关该项目的元数据和一系列依赖关系。</li>
+</ul>
+<h3 id="下一节-快速开始">下一节: <a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a></h3>
+<p><a name="快速开始" id="快速开始"></a></p>
+<h2 id="快速开始">快速开始</h2>
+<p>Electron Quick Start存储库是一个简单的Electron应用程序，包含您在此处了解到的 <code>package.json</code> ，<code>main.js</code> 和 <code>index.html</code>  - 一个开始的好地方！您也可以像选择框架一样去从模板库中选择一个模板boilerplates。</p>
+<h3 id="下一节-打包">下一节: <a href="#%E6%89%93%E5%8C%85">打包</a></h3>
+<h3 id="参考资料-9">参考资料:</h3>
+<ul>
+<li><a href="https://github.com/electron/electron-quick-start">Electron Quick Start</a></li>
+<li><a href="http://electron.atom.io/community#boilerplates">Awesome Electron: Boilerplates</a></li>
+</ul>
+<p><a name="打包" id="打包"></a></p>
+<h2 id="打包">打包</h2>
+<p>一旦您的应用程序构建完成，您可以使用Mac，Windows或Linux的命令行工具<code>electron-packager</code> 将其打包。为此添加脚本到你的 <code>package.json</code> 。请查看下面的资源，以便在Mac和Windows应用商店中获取您的应用。</p>
+<h3 id="下一节-更多参考资料">下一节: <a href="#%E6%9B%B4%E5%A4%9A%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">更多参考资料</a></h3>
+<h3 id="定义-11">定义:</h3>
+<ul>
+<li><strong>command-line tool</strong> 这是一个通过在终端中传递命令来与之交互的程序。</li>
+</ul>
+<h3 id="参考资料-10">参考资料:</h3>
+<ul>
+<li><a href="http://github.com/electron-userland/electron-packager">electron-packager</a></li>
+<li><a href="https://github.com/electron/electron-api-demos/blob/master/package.json#L15-L18">Electron API Demos packaging scripts</a></li>
+<li><a href="http://electron.atom.io/docs/tutorial/mac-app-store-submission-guide/">Mac App Store Electron Guide</a></li>
+<li><a href="http://electron.atom.io/docs/tutorial/windows-store-guide/">Windows App Store Electron Guide</a></li>
+</ul>
+<p><a name="更多参考资料" id="更多参考资料"></a></p>
+<h2 id="更多参考资料">更多参考资料</h2>
+<p>这里的概念会让你感觉很不错，但当然还有其他更多的资料。</p>
+<h3 id="参考资料-11">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/">Full Electron docs</a></li>
+<li><a href="http://electron.atom.io/community/">Awesome Electron: tools, videos, components, meetups</a></li>
+<li><a href="http://electron.atom.io/spectron/">Spectron</a> (Electron testing library)</li>
+<li><a href="http://electron.atom.io/devtron/">Devtron</a> (Inspect your Electron app)</li>
+</ul>
+<h6 id="本文由suremotoo翻译-github-docs">本文由Suremotoo翻译  <a href="https://github.com/Suremotoo/essential-electron">Github docs</a></h6>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electron 项目打包]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/electron-xiang-mu-da-bao/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/electron-xiang-mu-da-bao/index.html">
+        </link>
+        <updated>2019-04-21T13:44:44.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="electron-项目打包">Electron 项目打包</h2>
+<p>打包可算是项目开发的一个句号，在这过程中，我也踩过不少坑，这里简单记录下自己的要点，也希望这篇文章可以给大家一些参考。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="electron-项目打包">Electron 项目打包</h2>
+<p>打包可算是项目开发的一个句号，在这过程中，我也踩过不少坑，这里简单记录下自己的要点，也希望这篇文章可以给大家一些参考。</p>
+<!--more-->
+<p>目前打包我经常用2种方式：</p>
+<ul>
+<li><strong>electron-packager</strong></li>
+<li><strong>electron-builder</strong></li>
+</ul>
+<p>先说下这两种大体上的区别：</p>
+<ul>
+<li><code>electron-packager</code> 有点像绿色解压版，会把所有的文件 <strong>暴露</strong> 出来。</li>
+<li><code>electron-builder</code> 打包应用是 <strong>安装包</strong> 方式，比如dmg,pkg,exe,deb 等等。</li>
+</ul>
+<h3 id="electron-packager">electron-packager**</h3>
+<p>使用命令：<code>npm install electron-packager --save-dev</code> 可安装相关模块</p>
+<p>安装好后配置 <em>package.json</em> 文件的 package 打包运行脚本</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;electron .&quot;,
+    &quot;dev&quot;: &quot;electron . --debug&quot;,
+    &quot;package&quot;: &quot;npm-run-all package:*&quot;,
+    &quot;package:mac&quot;: &quot;electron-packager ./app --overwrite --platform=darwin --arch=x64 --out=out --icon=app/assets/app-icon/mac/app.icns --osx-sign.identity='Developer ID Application: GitHub'&quot;,
+    &quot;package:win&quot;: &quot;electron-packager ./app --overwrite --platform=win32 --arch=ia32 --out=out --icon=app/assets/app-icon/win/app.ico&quot;,
+    &quot;package:linux&quot;: &quot;electron-packager ./app --overwrite --platform=linux --arch=x64 --out=out&quot;
+  },
+</code></pre>
+<blockquote>
+<ul>
+<li>注意： ./app 是我自己的项目目录，out 是打包后存放的目录名，实际情况请自行修改</li>
+</ul>
+</blockquote>
+<p>打包对应的版本只需只需相关的命令即可，例如打包 mac 版本：<code>npm run-script package:mac</code> 即可。</p>
+<p><em>这里会有个小问题，后面说</em>。</p>
+<h3 id="electron-builder"><strong>electron-builder</strong></h3>
+<p>使用命令：<code>npm install electron-builder -g</code> 可安装相关模块，<code>我的安装全局才可用</code>！</p>
+<p>安装完后最好查看下是否成功： <code>electron-builder version</code></p>
+<p>成功后编辑项目文件夹下的 <em>package.json</em> 文件，添加electron builder编译所需要的属性</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;electron .&quot;,
+    &quot;dev&quot;: &quot;electron . --debug&quot;,
+    &quot;pack&quot;: &quot;electron-builder --dir&quot;,
+    &quot;dist&quot;: &quot;electron-builder&quot;
+  },
+  &quot;build&quot;: {
+      &quot;appId&quot;: &quot;site.suremotoo&quot;,
+      &quot;copyright&quot;: &quot;Suremotoo&quot;,
+      &quot;productName&quot;: &quot;e-tools&quot;,
+      &quot;dmg&quot;: {
+        &quot;background&quot;: &quot;app/assets/app-icon/png/app.icns&quot;,
+        &quot;window&quot;: {
+          &quot;x&quot;: 100,
+          &quot;y&quot;: 100,
+          &quot;width&quot;: 500,
+          &quot;height&quot;: 300
+        }
+      },
+      &quot;win&quot;: {
+        &quot;icon&quot;: &quot;app/assets/app-icon/win/app.ico&quot;
+      }
+    }
+</code></pre>
+<blockquote>
+<ul>
+<li>注意： build 属性均是演示数据，实际情况请自行修改。</li>
+<li>具体的属性可参考官方文档</li>
+</ul>
+</blockquote>
+<h5 id="一次打包所有平台命令有3种任选其一">一次打包所有平台命令有3种，任选其一：</h5>
+<ul>
+<li><strong><code>electron-builder -mwl</code></strong></li>
+<li><strong><code>electron-builder --platform=all</code></strong></li>
+<li><strong><code>electron-builder --win --x64</code></strong></li>
+</ul>
+<h5 id="具体打包命令参数也是任选其一">具体打包命令参数，也是任选其一:</h5>
+<h6 id="mac-版"><em><strong>Mac 版</strong></em></h6>
+<p><strong><code>electron-builder -m</code></strong> <br>
+<strong><code>electron-builder -o</code></strong> <br>
+<strong><code>electron-builder --mac</code></strong> <br>
+<strong><code>electron-builder --macos</code></strong> <br>
+<strong><code>electron-builder --platform=mac</code></strong> <br>
+<strong><code>electron-builder --platform=darwin</code></strong> <br></p>
+<h6 id="windows-版"><em><strong>Windows 版</strong></em></h6>
+<p><strong><code>electron-builder -w</code></strong> <br>
+<strong><code>electron-builder --win</code></strong> <br>
+<strong><code>electron-builder --windows</code></strong> <br>
+<strong><code>electron-builder --platform=win</code></strong> <br>
+<strong><code>electron-builder --platform=win32</code></strong> <br></p>
+<h6 id="linux-版"><em><strong>Linux 版</strong></em></h6>
+<p><strong><code>electron-builder -l</code></strong> <br>
+<strong><code>electron-builder --linux</code></strong> <br>
+<strong><code>electron-builder --platform=linux</code></strong> <br></p>
+<p>打包对应的版本只需只需相关的命令即可，例如打包所有版本：<code>npm run-script pack</code> 或者 <code>npm run-script dist</code>  即可。</p>
+<blockquote>
+<ul>
+<li>提示：如果只是执行 <code>electron-builder</code> 命令，默认会根据当前系统打包哟~</li>
+</ul>
+</blockquote>
+<h3 id="上面提到的问题"><strong>上面提到的问题</strong></h3>
+<p>electron打包的时候需要<strong>下载一个版本库</strong>，速度会非常慢，即使开代理了，都不一定能解决，这里可以通过淘宝镜像源解决。</p>
+<p>对于 cnpm 和 yarn，我都没有过多使用，我比较喜欢传统的 npm，也是最可靠的，唯一的缺点就是慢。一般都用 npm install 可以解决，像这种打包需要某种文件，这个我觉得临时使用镜像还是可以的。</p>
+<p>以 electron-duilder 打包为例：</p>
+<pre><code>ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ 你的命令
+// 比如打包所有平台
+ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/  electron-builder --platform=all
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JetBrains 系列产品破解]]></title>
+        <id>/Users/suremotoo/Documents/Gridea/output/post/jetbrains-xi-lie-chan-pin-po-jie/index.html</id>
+        <link href="/Users/suremotoo/Documents/Gridea/output/post/jetbrains-xi-lie-chan-pin-po-jie/index.html">
+        </link>
+        <updated>2019-04-21T07:10:41.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id=""></h2>
+<p>本教程可以破解 JetBrains 的大部分产品，例如：<strong>IntelliJ IDEA、WebStorm、PyCharm、PhpStorm、DataGrip</strong> 等，这些我本人已经实践，确实可破解，其余产品未尝试，有兴趣的可以去试试。</p>
+<p><em>本文章以  IDEA 为例，其余产品参考即可</em></p>
+<p><em><span style="color:red;"> 前提要安装 jdk（最好1.8） 并配置好环境变量</span></em></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id=""></h2>
+<p>本教程可以破解 JetBrains 的大部分产品，例如：<strong>IntelliJ IDEA、WebStorm、PyCharm、PhpStorm、DataGrip</strong> 等，这些我本人已经实践，确实可破解，其余产品未尝试，有兴趣的可以去试试。</p>
+<p><em>本文章以  IDEA 为例，其余产品参考即可</em></p>
+<p><em><span style="color:red;"> 前提要安装 jdk（最好1.8） 并配置好环境变量</span></em></p>
+<!--more-->
+<h3 id="1-注意下载产品后先启动下-app会提示输入注册码的窗口然后关掉再进行破解步骤">1、注意：下载产品后，先启动下 app，会提示输入注册码的窗口，然后关掉，再进行破解步骤。</h3>
+<h3 id="2-百度搜索idea-破解第一个结果就是如图">2、百度：搜索“IDEA 破解”，第一个结果就是，如图：</h3>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/jetbrains/baiduSerachIdea.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="百度搜索"></p></p>
+<h3 id="3-下载破解文件-jar-包">3、下载破解文件 jar 包</h3>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/jetbrains/crackerJar.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="下载破解文件"></p></p>
+<p>最好将 jar 包放到一个英文目录下，本人的目录为：<em>/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em> ,大家自行配置。</p>
+<h3 id="4-修改配置文件就一句话">4、修改配置文件，就一句话！</h3>
+<p>找到 Idea 安装目录，进入 <strong>bin 文件夹</strong>，找到 <strong>idea.vmoptions</strong> 文件，在文件 最后加一行内容</p>
+<pre><code>-javaagent:破解文件地址
+</code></pre>
+<p>我的配置就是：<em>-javaagent:/Users/suremotoo/devApp/jetbrainsCracker/JetbrainsCrack.jar</em></p>
+<h3 id="5-输入激活代码即可激活">5、输入激活代码即可激活</h3>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/jetbrains/activeCode.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="激活码"></p></p>
+<h3 id="激活代码">激活代码</h3>
+<p><em>&quot;licenseeName&quot;:&quot;这里可以修改为你的名字&quot;,</em></p>
+<pre><code>{&quot;licenseId&quot;:&quot;1337&quot;,
+&quot;licenseeName&quot;:&quot;Suremotoo&quot;,
+&quot;assigneeName&quot;:&quot;&quot;,
+&quot;assigneeEmail&quot;:&quot;&quot;,
+&quot;licenseRestriction&quot;:&quot;Unlimited license till end of the century.&quot;,
+&quot;checkConcurrentUse&quot;:false,
+&quot;products&quot;:[
+{&quot;code&quot;:&quot;II&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;DM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;AC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;RS0&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;WS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;DPN&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;RC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;PS&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;DC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;RM&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;CL&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;PC&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;DB&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;GO&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;},
+{&quot;code&quot;:&quot;RD&quot;,&quot;paidUpTo&quot;:&quot;2099-12-31&quot;}
+],
+&quot;hash&quot;:&quot;2911276/0&quot;,
+&quot;gracePeriodDays&quot;:7,
+&quot;autoProlongated&quot;:false}
+</code></pre>
+<p>激活代码的地址：<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/jetbrains/activeCodeUrl.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="如何找到激活码"></p></p>
+]]></content>
+    </entry>
+</feed>
