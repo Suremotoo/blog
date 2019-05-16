@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://suremotoo.site/blog/</id>
     <title>Suremotoo&apos;s Blog</title>
-    <updated>2019-05-16T14:50:32.204Z</updated>
+    <updated>2019-05-16T14:50:45.698Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://suremotoo.site/blog/"/>
     <link rel="self" href="https://suremotoo.site/blog//atom.xml"/>
@@ -10,31 +10,6 @@
     <logo>https://suremotoo.site/blog//images/avatar.png</logo>
     <icon>https://suremotoo.site/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Suremotoo&apos;s Blog</rights>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>https://suremotoo.site/blog//post/hello-suremotoo</id>
-        <link href="https://suremotoo.site/blog//post/hello-suremotoo">
-        </link>
-        <updated>2019-05-16T14:50:27.000Z</updated>
-        <summary type="html"><![CDATA[<p>Hello</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Hello</p>
-<!-- more --> 
-<p>Suremotoo</p>
-<audio id="audio" controls="" preload="none">
-      <source id="mp3" src="http://oht4nlntk.bkt.clouddn.com/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3">
-      </audio>
-<video id="video" preload="none" poster="https://github.com/Suremotoo/blog-comment/blob/master/img/gridea-guide/guide-Gridea-preface.png?raw=true">
-    <source id="mp4" src="http://upos-hz-mirrorakam.akamaized.net/upgcxcode/92/88/92028892/92028892-1-208.mp4?e=ig8euxZM2rNcNbeVhwdVtWeVhwdVNEVEuCIv29hEn0lqXg8gNEVEuCuEtoNY-g859r1qXg8xNEVE5XREto89kXHeqa5zN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&ua=tvproj&deadline=1557989314&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=90000&trid=7abab2c96bad41afbe73dc84f172cf25&uipk=5&uipv=5&um_deadline=1557989314&um_sign=8f6a26495cf27c4daa3916d3b23b0a40&upsig=8c866e70129e22770699c0b3c5b83492&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1557989314~hmac=20b1eb3dea87543ff49d6b7b96080a1bad6b739afbfd84a8142bae3d20051fa5" type="video/mp4">
-    <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
-<video id="video" preload="none" poster="https://github.com/Suremotoo/blog-comment/blob/master/img/gridea-guide/guide-Gridea-profile.png?raw=true">
-    <source id="mp4" src="https://dev.tencent.com/u/Suremotoo/p/blog-resources/git/raw/0a52ad5701cdebd5b9f50a844496d717c2578386/gridea-guide/2-git-%E5%AE%89%E8%A3%85.mp4" type="video/mp4">
-    <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
-<p><a href="http://upos-hz-mirrorakam.akamaized.net/upgcxcode/92/88/92028892/92028892-1-208.mp4?e=ig8euxZM2rNcNbeVhwdVtWeVhwdVNEVEuCIv29hEn0lqXg8gNEVEuCuEtoNY-g859r1qXg8xNEVE5XREto89kXHeqa5zN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&ua=tvproj&deadline=1557989314&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=90000&trid=7abab2c96bad41afbe73dc84f172cf25&uipk=5&uipv=5&um_deadline=1557989314&um_sign=8f6a26495cf27c4daa3916d3b23b0a40&upsig=8c866e70129e22770699c0b3c5b83492&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1557989314~hmac=20b1eb3dea87543ff49d6b7b96080a1bad6b739afbfd84a8142bae3d20051fa5" target="_blank"><img  title="点击查看视频" src="https://github.com/Suremotoo/blog-comment/blob/master/img/gridea-guide/guide-Gridea-preface.png?raw=true"></a></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 快速上手教程]]></title>
         <id>https://suremotoo.site/blog//post/gridea-quick-start-guide</id>
@@ -142,39 +117,39 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3486900"><label class="task-list-item-label" for="task-item-3486900"> Additional icons  附加图标</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3939599"><label class="task-list-item-label" for="task-item-3939599"> Additional icons  附加图标</label></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3193896"><label class="task-list-item-label" for="task-item-3193896"> On the Desktop 添加图标到桌面上</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9070880"><label class="task-list-item-label" for="task-item-9070880"> On the Desktop 添加图标到桌面上</label></li>
 </ul>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1356421"><label class="task-list-item-label" for="task-item-1356421"> Windows Explorer integration Windows 资源管理器集成鼠标右键菜单</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9053278"><label class="task-list-item-label" for="task-item-9053278"> Windows Explorer integration Windows 资源管理器集成鼠标右键菜单</label></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6007962"><label class="task-list-item-label" for="task-item-6007962"> Git Bash Here</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7003695"><label class="task-list-item-label" for="task-item-7003695"> Git GUI Here</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-275449"><label class="task-list-item-label" for="task-item-275449"> Git Bash Here</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-367617"><label class="task-list-item-label" for="task-item-367617"> Git GUI Here</label></li>
 </ul>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9754604"><label class="task-list-item-label" for="task-item-9754604"> Git LFS (Large File Support) 大文件支持</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1433994"><label class="task-list-item-label" for="task-item-1433994"> Git LFS (Large File Support) 大文件支持</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5386889"> Associate .git* configuration files with the default text editor
-<label class="task-list-item-label" for="task-item-5386889"> Associate .git* configuration files with the default text editor 
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6007030"> Associate .git* configuration files with the default text editor
+<label class="task-list-item-label" for="task-item-6007030"> Associate .git* configuration files with the default text editor 
 将 .git 配置文件与默认文本编辑器相关联</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3650518"> Associate .sh files to be run with Bash
-<label class="task-list-item-label" for="task-item-3650518"> Associate .sh files to be run with Bash
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6582958"> Associate .sh files to be run with Bash
+<label class="task-list-item-label" for="task-item-6582958"> Associate .sh files to be run with Bash
 将.sh文件关联到Bash运行</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2484667"> Use a TrueType font in all console windows
-<label class="task-list-item-label" for="task-item-2484667"> Use a TrueType font in all console windows
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7998838"> Use a TrueType font in all console windows
+<label class="task-list-item-label" for="task-item-7998838"> Use a TrueType font in all console windows
 在所有控制台窗口中使用TrueType字体</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3085221"> Check daily for Git for Windows updates
-<label class="task-list-item-label" for="task-item-3085221"> Check daily for Git for Windows updates
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4943896"> Check daily for Git for Windows updates
+<label class="task-list-item-label" for="task-item-4943896"> Check daily for Git for Windows updates
 每天检查Git是否有Windows更新</label></p>
 </li>
 </ul>
@@ -184,23 +159,23 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4478468"> Use the Nano editor by default
-<label class="task-list-item-label" for="task-item-4478468"> Use the Nano editor by default
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5338080"> Use the Nano editor by default
+<label class="task-list-item-label" for="task-item-5338080"> Use the Nano editor by default
 默认使用 Nano 编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2711741"> Use Vim (The ubiquitous text editor) as Git's default editor
-<label class="task-list-item-label" for="task-item-2711741"> Use Vim (The ubiquitous text editor) as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8330917"> Use Vim (The ubiquitous text editor) as Git's default editor
+<label class="task-list-item-label" for="task-item-8330917"> Use Vim (The ubiquitous text editor) as Git's default editor
 使用 Vim 作为 Git 的默认编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7193020"> Use Notepad++ as Git's default editor
-<label class="task-list-item-label" for="task-item-7193020"> Use Notepad++ as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5855300"> Use Notepad++ as Git's default editor
+<label class="task-list-item-label" for="task-item-5855300"> Use Notepad++ as Git's default editor
 使用 Notepad++ 作为 Git 的默认编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1713326"> Use Visual Studio Code as Git's default editor
-<label class="task-list-item-label" for="task-item-1713326"> Use Visual Studio Code as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-462711"> Use Visual Studio Code as Git's default editor
+<label class="task-list-item-label" for="task-item-462711"> Use Visual Studio Code as Git's default editor
 使用 Visual Studio Code 作为 Git 的默认编辑器</label></p>
 </li>
 </ul>
@@ -210,18 +185,18 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8573378"> Use Git from Git Bash only
-<label class="task-list-item-label" for="task-item-8573378"> Use Git from Git Bash only
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6520852"> Use Git from Git Bash only
+<label class="task-list-item-label" for="task-item-6520852"> Use Git from Git Bash only
 这是最安全的选择，因为您的PATH根本不会被修改。您只能使用 Git Bash 的 Git 命令行工具。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4632342"> Use Git from the Windows Command Prompt
-<label class="task-list-item-label" for="task-item-4632342"> Use Git from the Windows Command Prompt
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3848078"> Use Git from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-3848078"> Use Git from the Windows Command Prompt
 这个选项被认为是安全的，因为它只向PATH添加一些最小的 Git包，以避免使用可选的Unix工具混淆环境。 您将能够从 Git Bash 和 Windows 命令提示符中使用 Git。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9766597"> Use Git and optional Unix tools from the Windows Command Prompt
-<label class="task-list-item-label" for="task-item-9766597"> Use Git and optional Unix tools from the Windows Command Prompt
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4098846"> Use Git and optional Unix tools from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-4098846"> Use Git and optional Unix tools from the Windows Command Prompt
 Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 </li>
 </ul>
@@ -232,13 +207,13 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6949289"> Use the OpenSSL library   使用 OpenSSL 库
-<label class="task-list-item-label" for="task-item-6949289"> Use the OpenSSL library   使用 OpenSSL 库
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-408920"> Use the OpenSSL library   使用 OpenSSL 库
+<label class="task-list-item-label" for="task-item-408920"> Use the OpenSSL library   使用 OpenSSL 库
 服务器证书将使用ca-bundle.crt文件进行验证。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9130338"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
-<label class="task-list-item-label" for="task-item-9130338"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1311778"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+<label class="task-list-item-label" for="task-item-1311778"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
 服务器证书将使用Windows证书存储验证。此选项还允许您使用公司的内部根CA证书，例如， 通过Active Directory Domain Services</label></p>
 </li>
 </ul>
@@ -248,18 +223,18 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-398864"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
-<label class="task-list-item-label" for="task-item-398864"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-100138"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+<label class="task-list-item-label" for="task-item-100138"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
 在检出文本文件时，Git会将LF转换为CRLF。当提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Windows上推荐的设置（“core.autocrlf”设置为“true”）</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7039843"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
-<label class="task-list-item-label" for="task-item-7039843"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9380382"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+<label class="task-list-item-label" for="task-item-9380382"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
 在检出文本文件时，Git不会执行任何转换。 提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Unix上的推荐设置 （“core.autocrlf”设置为“input”）</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4385669"> Checkout as-is,commit as-is   按原样检出，原样提交
-<label class="task-list-item-label" for="task-item-4385669"> Checkout as-is,commit as-is   按原样检出，原样提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8233056"> Checkout as-is,commit as-is   按原样检出，原样提交
+<label class="task-list-item-label" for="task-item-8233056"> Checkout as-is,commit as-is   按原样检出，原样提交
 在检出或提交文本文件时，Git不会执行任何转换。对于跨平台项目，不推荐使用此选项（“core.autocrlf”设置为“false”）</label></p>
 </li>
 </ul>
@@ -269,13 +244,13 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2040287"> Use MinTTY (the default terminal of MSYS2)  推荐使用
-<label class="task-list-item-label" for="task-item-2040287"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1523217"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+<label class="task-list-item-label" for="task-item-1523217"> Use MinTTY (the default terminal of MSYS2)  推荐使用
 Git Bash将使用MinTTY作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选区和Unicode字体。 Windows控制台程序（如交互式Python）必须通过'winpty'启动才能在MinTTY中运行。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6494708"> Use Windows' default console window     默认使用windows自己
-<label class="task-list-item-label" for="task-item-6494708"> Use Windows' default console window     默认使用windows自己
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8578165"> Use Windows' default console window     默认使用windows自己
+<label class="task-list-item-label" for="task-item-8578165"> Use Windows' default console window     默认使用windows自己
 Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以与Win32控制台程序（如交互式Python或node.js）一起使用，但默认的回滚非常有限，需要配置为使用unicode 字体以正确显示非ASCII字符，并且在Windows 10之前，其窗口不能自由调整大小，并且只允许矩形文本选择。</label></p>
 </li>
 </ul>
@@ -285,18 +260,18 @@ Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5233220"> Enable file system caching   启用文件系统缓存
-<label class="task-list-item-label" for="task-item-5233220"> Enable file system caching   启用文件系统缓存
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5600261"> Enable file system caching   启用文件系统缓存
+<label class="task-list-item-label" for="task-item-5600261"> Enable file system caching   启用文件系统缓存
 文件系统数据将被批量读取并缓存在内存中用于某些操作（“core.fscache”设置为“true”）。 这提供了显着的性能提升。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5227567"> Enable Git Credential Manager   启用Git凭证管理器
-<label class="task-list-item-label" for="task-item-5227567"> Enable Git Credential Manager   启用Git凭证管理器
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1455920"> Enable Git Credential Manager   启用Git凭证管理器
+<label class="task-list-item-label" for="task-item-1455920"> Enable Git Credential Manager   启用Git凭证管理器
 Windows的Git凭证管理器为Windows提供安全的Git凭证存储，最显着的是对Visual Studio Team Services和GitHub的多因素身份验证支持。 （需要.NET Framework v4.5.1或更高版本）。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7480259"> Enable symbolic links   启用符号链接
-<label class="task-list-item-label" for="task-item-7480259"> Enable symbolic links   启用符号链接
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5848534"> Enable symbolic links   启用符号链接
+<label class="task-list-item-label" for="task-item-5848534"> Enable symbolic links   启用符号链接
 启用符号链接（需要SeCreateSymbolicLink权限）。请注意，现有存储库不受此设置的影响。</label></p>
 </li>
 </ul>
@@ -1028,6 +1003,285 @@ Attempts to ssh to github
 <h4 id="如果有如下提示就是成功啦">如果有如下提示就是成功啦</h4>
 <pre><code>Hi xxx! You've successfully authenticated, but GitHub does not # provide shell access.
 </code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Essential Electron 文档]]></title>
+        <id>https://suremotoo.site/blog//post/essential-electron-wen-dang</id>
+        <link href="https://suremotoo.site/blog//post/essential-electron-wen-dang">
+        </link>
+        <updated>2019-04-21T13:47:05.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="essential-electron">Essential Electron</h1>
+<p>Concise plain-speak about Electron.</p>
+<table>
+<thead>
+<tr>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Electron%E6%98%AF%E4%BB%80%E4%B9%88?">Electron 是什么?</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></td>
+</tr>
+</tbody>
+</table>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="essential-electron">Essential Electron</h1>
+<p>Concise plain-speak about Electron.</p>
+<table>
+<thead>
+<tr>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Electron%E6%98%AF%E4%BB%80%E4%B9%88?">Electron 是什么?</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></td>
+</tr>
+</tbody>
+</table>
+<!--more-->
+<table>
+<thead>
+<tr>
+<th>Development</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6">前提条件</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%A4%E4%B8%AA%E8%BF%9B%E7%A8%8B">两个进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E4%B8%BB%E8%BF%9B%E7%A8%8B">主进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B">渲染进程</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%83%8F%E8%BF%99%E6%A0%B7%E6%80%9D%E8%80%83">像这样思考</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Development Cont'd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#%E4%BF%9D%E6%8C%81%E9%80%9A%E8%AE%AF">保持通讯</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%80%BB%E8%80%8C%E8%A8%80%E4%B9%8B">总而言之</a></td>
+</tr>
+<tr>
+<td><a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%89%93%E5%8C%85">打包</a></td>
+</tr>
+<tr>
+<td><a href="#%E6%9B%B4%E5%A4%9A%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">更多参考资料</a></td>
+</tr>
+</tbody>
+</table>
+<p>Read this in <a href="index.html">English</a> <a href="index-jp.html">Japanese</a>.</p>
+<p><a name="Electron是什么?" id="Electron是什么?"></a></p>
+<h2 id="electron-是什么">Electron 是什么?</h2>
+<p>Electron 是一个可以用 <span class="def">JavaScript、HTML 和 CSS </span>构建桌面应用程序的<span class="def">库</span>。这些应用程序能打包到 Mac、Windows 和 Linux 系统上运行，也能上架到 Mac 和 Windows 的 App Store。</p>
+<h3 id="下一节-为什么它如此重要">下一节: <a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81?">为什么它如此重要?</a></h3>
+<h3 id="定义">定义:</h3>
+<ul>
+<li><strong>JavaScript, HTML and CSS</strong> 都是 Web 语言，它们是组成网站的一部分，浏览器（如 Chrome）懂得如何将这些代码转为可视化图像。</li>
+<li><strong>Electron 是一个库</strong> Electron 对底层代码进行抽象和封装，让开发者能在此之上构建项目。</li>
+</ul>
+<h3 id="参考资料">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/apps">由Electron构建的项目</a></li>
+<li><a href="http://electron.atom.io/#get-started">Electron API Demos</a> (看看你可以用Electron做什么)</li>
+</ul>
+<p><a name="为什么它如此重要?" id="为什么它如此重要?"></a></p>
+<h2 id="为什么它如此重要">为什么它如此重要?</h2>
+<p>通常来说，每个操作系统的桌面应用都由各自的<span class="def">原生语言</span>进行编写，这意味着需要 3 个团队分别为该应用编写相应版本。而 Electron 则允许你用 Web 语言编写一次即可。</p>
+<h3 id="下一节-它由什么组成">下一节: <a href="#%E5%AE%83%E7%94%B1%E4%BB%80%E4%B9%88%E7%BB%84%E6%88%90?">它由什么组成?</a></h3>
+<h3 id="定义-2">定义:</h3>
+<ul>
+<li><strong>原生（操作系统）语言</strong> 用于开发主流操作系统应用的原生语言的对应关系（大多数情况下）：Mac 对应 Objective C、Linux 对应 C、Windows 对应 C++</li>
+</ul>
+<p><a name="它由什么组成?" id="它由什么组成?"></a></p>
+<h2 id="它由什么组成">它由什么组成?</h2>
+<p>Electron 结合了 <span class="def">Chromium</span>  、 <span class="def">Node.js</span> ，还有像打开文件窗口、通知、图标等这样的用于调用操作系统本地功能的 API。</p>
+<p><img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/components.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron components"></p></p>
+<h3 id="下一节-开发体验如何">下一节: <a href="#%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95?">开发体验如何?</a></h3>
+<h3 id="定义-3">定义:</h3>
+<ul>
+<li><strong>API</strong> 应用程序接口描述了可供您使用库的一组功能。</li>
+<li><strong>Chromium</strong> 由Google创建，这是Google Chrome浏览器使用的开源库。</li>
+<li><strong>Node.js</strong> （或者叫 Node）用于在服务器上编写JavaScript，访问文件系统和网络的工具（您的计算机也是服务器！）</li>
+</ul>
+<h3 id="参考资料-2">参考资料:</h3>
+<ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="http://chromium.org">Chromium</a></li>
+<li><a href="http://electron.atom.io/blog/2016/08/08/electron-internals-using-node-as-a-library">Electron blog post: Using Node as a Library</a> (deep dive)</li>
+<li><a href="http://electron.atom.io/docs/tutorial/electron-versioning/">Electron 版本发展</a></li>
+</ul>
+<p><a name="开发体验如何?" id="开发体验如何?"></a></p>
+<h2 id="开发体验如何">开发体验如何?</h2>
+<p>基于 Electron 的开发就像在开发网页，而且能够无缝地 <span class="def">使用 Node</span>。或者说：在构建一个 Node 应用的同时，通过 HTML 和 CSS 构建界面。另外，你只需为<span class="def">一个浏览器（最新的 Chrome）</span>进行设计（即无需考虑兼容性等）。</p>
+<h3 id="下一节-前提条件">下一节: <a href="#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6">前提条件</a></h3>
+<h3 id="定义-4">定义:</h3>
+<ul>
+<li><strong>使用 Node</strong> 这还不是全部! 除了完整的Node API之外，您还可以使用已经编写和托管在npm上的超过30万个模块，这是Node的包管理器。</li>
+<li><strong>一个浏览器</strong> 并非所有的浏览器都是一样的，网页设计师和开发人员经常不得不多一些时间才能让网站在每个浏览器上的效果看起来都一样。</li>
+<li><strong>最新版 Chrome</strong> 可使用超过90%的ES2015特性，最新的JavaScript，以及炫酷的特性，如CSS变量。</li>
+</ul>
+<h3 id="参考资料-3">参考资料:</h3>
+<ul>
+<li><a href="http://caniuse.com/#home">我可以使用?</a> (查看每个浏览器支持的内容)</li>
+<li><a href="http://blog.chromium.org">更新到 Chrome</a> (Chromium 博客)</li>
+<li><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">CSS 变量</a></li>
+</ul>
+<p><a name="前提条件" id="前提条件"></a></p>
+<h2 id="前提条件">前提条件</h2>
+<p>由于Electron的两大组件都是网站和JavaScript，因此在开始之前，您需要这两者的相关经验。查看一些关于HTML，CSS和JS的教程，并在您的计算机上安装Node。</p>
+<h3 id="定义-5">定义:</h3>
+<ul>
+<li><strong>让我们真正开始</strong>, 学习制作网站和编写Node并不是一夜之间的事情，但希望以下链接可以帮助您入门。</li>
+</ul>
+<h3 id="下一节-两个进程">下一节: <a href="#%E4%B8%A4%E4%B8%AA%E8%BF%9B%E7%A8%8B">两个进程</a></h3>
+<h3 id="参考资料-4">参考资料:</h3>
+<ul>
+<li><a href="https://nodejs.org">安装 Node</a> (chose the LTS version)</li>
+<li><a href="http://nodeschool.io">NodeSchool Tutorials</a> (try learnyounode)</li>
+<li><a href="http://jsforcats.com">JS for Cats</a> (by Max Ogden)</li>
+<li><a href="http://learn.shayhowe.com/html-css">学习 HTML &amp; CSS 编程</a> (by Shay Howe)</li>
+<li><a href="https://css-tricks.com">CSS Tricks</a> (learn CSS best practices and tips)</li>
+<li><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">Mozilla Developer Network</a> (like a dictionary for websites and JavaScript)</li>
+</ul>
+<p><a name="两个进程" id="两个进程"></a></p>
+<h2 id="两个进程">两个进程</h2>
+<p>Electron 有两种进程：『主进程』和『渲染进程』。部分<span class="def">模块</span>只能在两者之一上运行，而有些则无限制。主进程更多地充当幕后角色，而渲染进程则是应用程序的各个窗口。</p>
+<h3 id="定义-6">定义:</h3>
+<ul>
+<li><strong>模块</strong> Electron 的 API 是根据它们的用途进行分组。例如： <code>dialog</code>  模块拥有所有原生 dialog 的 API，如打开文件、保存文件和警告等弹窗。</li>
+</ul>
+<h3 id="下一节-主进程">下一节: <a href="#%E4%B8%BB%E8%BF%9B%E7%A8%8B">主进程</a></h3>
+<h3 id="参考资料-5">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="主进程" id="主进程"></a></p>
+<h2 id="主进程">主进程</h2>
+<p>主进程，通常是一个命名为 <code>main.js</code> 的文件，该文件是每个 Electron 应用的入口。它控制了应用的生命周期（从打开到关闭）。它既能<span class="def">调用原生元素</span>，也能创建新的（多个）渲染进程。另外，Node API 是内置其中的。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/main.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="main process diagram">
+<h3 id="定义-7">定义:</h3>
+<ul>
+<li><strong>调用原生元素</strong> 打开 diglog 和其它操作系统的交互均是参考资料密集型操作，因此都需要在主进程完成,从而不会中断渲染程序进程。</li>
+</ul>
+<h3 id="下一节-渲染进程">下一节: <a href="#%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B">渲染进程</a></h3>
+<h3 id="参考资料-6">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="渲染进程" id="渲染进程"></a></p>
+<h2 id="渲染进程">渲染进程</h2>
+<p>渲染进程是应用的一个浏览器窗口。与主进程不同，它能存在多个,并且相互独立.他们也能是<span class="def">隐藏</span>的。主窗口通常被命名为 <code>index.html</code> 。它们就像典型的 HTML 文件，但 Electron 赋予了它们完整的 Node API。因此，这也是它与浏览器的区别。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/renderer.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="renderer process">
+<h3 id="定义-8">定义:</h3>
+<ul>
+<li><strong>相互独立</strong> 每个渲染进程都是独立的，这意味着某个渲染进程的崩溃，也不会影响其余渲染进程。</li>
+<li><strong>隐藏</strong> 你可以设置隐藏一个窗口，让它在后台执行代码。</li>
+</ul>
+<h3 id="下一节-像这样思考">下一节: <a href="#%E5%83%8F%E8%BF%99%E6%A0%B7%E6%80%9D%E8%80%83">像这样思考</a></h3>
+<h3 id="参考资料-7">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/api/">Electron APIs List</a></li>
+</ul>
+<p><a name="像这样思考" id="像这样思考"></a></p>
+<h2 id="像这样思考">像这样思考</h2>
+<p>在Chrome（或其他网络浏览器）中，每个选项卡及其网页就像Electron中的单个渲染器进程。如果关闭所有选项卡，Chrome仍然存在，这就像您的主进程一样，您可以打开新窗口或退出应用程序。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/like-this.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Chrome comparison of the two processes">
+<h3 id="参考资料-8">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/tutorial/quick-start/#differences-between-main-process-and-renderer-process">主进程和渲染进程的差异</a></li>
+</ul>
+<h3 id="下一节-保持通讯">下一节: <a href="#%E4%BF%9D%E6%8C%81%E9%80%9A%E8%AE%AF">保持通讯</a></h3>
+<p><a name="保持通讯" id="保持通讯"></a></p>
+<h2 id="保持通讯">保持通讯</h2>
+<p>由于主进程和渲染进程各自负责不同的任务，而对于需要协同完成的任务，它们需要相互通讯。<span class="def">IPC</span>就为此而生，它提供了进程间的通讯。但它只能在主进程与渲染进程之间传递信息（即渲染进程之间不能进行直接通讯）。</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/ipc.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="IPC diagram">
+<h3 id="定义-9">定义:</h3>
+<ul>
+<li><strong>IPC</strong> 主进程和渲染进程各自拥有一个 IPC 模块。</li>
+</ul>
+<h3 id="下一节-总而言之">下一节: <a href="#%E6%80%BB%E8%80%8C%E8%A8%80%E4%B9%8B">总而言之</a></h3>
+<p><a name="总而言之" id="总而言之"></a></p>
+<h2 id="总而言之">总而言之</h2>
+<p>Electron 应用就像 Node 应用，它也依赖一个 <span class="def"><code>package.json</code> </span> 文件。该文件定义了哪个文件作为主进程，并因此让 Electron 知道从何启动应用。然后主进程能创建渲染进程，并能使用 IPC 让两者间进行消息传递</p>
+<img src="https://github.com/Suremotoo/blog-comment/blob/master/img/electron/app-files.png?raw=true" style="display: block; max-width: 100%;height: auto;" alt="Electron app components diagram">
+<h3 id="定义-10">定义:</h3>
+<ul>
+<li><strong><code>package.json</code> 文件</strong> 这是Node应用程序中的一个常用文件，其中包含有关该项目的元数据和一系列依赖关系。</li>
+</ul>
+<h3 id="下一节-快速开始">下一节: <a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a></h3>
+<p><a name="快速开始" id="快速开始"></a></p>
+<h2 id="快速开始">快速开始</h2>
+<p>Electron Quick Start存储库是一个简单的Electron应用程序，包含您在此处了解到的 <code>package.json</code> ，<code>main.js</code> 和 <code>index.html</code>  - 一个开始的好地方！您也可以像选择框架一样去从模板库中选择一个模板boilerplates。</p>
+<h3 id="下一节-打包">下一节: <a href="#%E6%89%93%E5%8C%85">打包</a></h3>
+<h3 id="参考资料-9">参考资料:</h3>
+<ul>
+<li><a href="https://github.com/electron/electron-quick-start">Electron Quick Start</a></li>
+<li><a href="http://electron.atom.io/community#boilerplates">Awesome Electron: Boilerplates</a></li>
+</ul>
+<p><a name="打包" id="打包"></a></p>
+<h2 id="打包">打包</h2>
+<p>一旦您的应用程序构建完成，您可以使用Mac，Windows或Linux的命令行工具<code>electron-packager</code> 将其打包。为此添加脚本到你的 <code>package.json</code> 。请查看下面的资源，以便在Mac和Windows应用商店中获取您的应用。</p>
+<h3 id="下一节-更多参考资料">下一节: <a href="#%E6%9B%B4%E5%A4%9A%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">更多参考资料</a></h3>
+<h3 id="定义-11">定义:</h3>
+<ul>
+<li><strong>command-line tool</strong> 这是一个通过在终端中传递命令来与之交互的程序。</li>
+</ul>
+<h3 id="参考资料-10">参考资料:</h3>
+<ul>
+<li><a href="http://github.com/electron-userland/electron-packager">electron-packager</a></li>
+<li><a href="https://github.com/electron/electron-api-demos/blob/master/package.json#L15-L18">Electron API Demos packaging scripts</a></li>
+<li><a href="http://electron.atom.io/docs/tutorial/mac-app-store-submission-guide/">Mac App Store Electron Guide</a></li>
+<li><a href="http://electron.atom.io/docs/tutorial/windows-store-guide/">Windows App Store Electron Guide</a></li>
+</ul>
+<p><a name="更多参考资料" id="更多参考资料"></a></p>
+<h2 id="更多参考资料">更多参考资料</h2>
+<p>这里的概念会让你感觉很不错，但当然还有其他更多的资料。</p>
+<h3 id="参考资料-11">参考资料:</h3>
+<ul>
+<li><a href="http://electron.atom.io/docs/">Full Electron docs</a></li>
+<li><a href="http://electron.atom.io/community/">Awesome Electron: tools, videos, components, meetups</a></li>
+<li><a href="http://electron.atom.io/spectron/">Spectron</a> (Electron testing library)</li>
+<li><a href="http://electron.atom.io/devtron/">Devtron</a> (Inspect your Electron app)</li>
+</ul>
+<h6 id="本文由suremotoo翻译-github-docs">本文由Suremotoo翻译  <a href="https://github.com/Suremotoo/essential-electron">Github docs</a></h6>
 ]]></content>
     </entry>
 </feed>
