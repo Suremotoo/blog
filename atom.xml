@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.suremotoo.site</id>
+    <id>https://suremotoo.site/blog</id>
     <title>Suremotoo&apos;s Blog</title>
-    <updated>2019-05-20T11:32:02.749Z</updated>
+    <updated>2019-05-20T11:32:31.531Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.suremotoo.site"/>
-    <link rel="self" href="https://blog.suremotoo.site/atom.xml"/>
+    <link rel="alternate" href="https://suremotoo.site/blog"/>
+    <link rel="self" href="https://suremotoo.site/blog/atom.xml"/>
     <subtitle>每天叫醒你的不是闹铃，而是梦想</subtitle>
-    <logo>https://blog.suremotoo.site/images/avatar.png</logo>
-    <icon>https://blog.suremotoo.site/favicon.ico</icon>
+    <logo>https://suremotoo.site/blog/images/avatar.png</logo>
+    <icon>https://suremotoo.site/blog/favicon.ico</icon>
     <rights>All rights reserved 2019, Suremotoo&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[Gridea 快速上手教程]]></title>
-        <id>https://blog.suremotoo.site/post/gridea-quick-start-guide</id>
-        <link href="https://blog.suremotoo.site/post/gridea-quick-start-guide">
+        <id>https://suremotoo.site/blog/post/gridea-quick-start-guide</id>
+        <link href="https://suremotoo.site/blog/post/gridea-quick-start-guide">
         </link>
         <updated>2019-05-16T14:40:59.000Z</updated>
         <summary type="html"><![CDATA[<p>如果您之前使用过 <strong>Github</strong> 来搭建过自己的网站或者博客，那么您可以很轻松的上手 <strong>Gridea</strong>。</p>
@@ -98,8 +98,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[git安装教程]]></title>
-        <id>https://blog.suremotoo.site/post/git-install</id>
-        <link href="https://blog.suremotoo.site/post/git-install">
+        <id>https://suremotoo.site/blog/post/git-install</id>
+        <link href="https://suremotoo.site/blog/post/git-install">
         </link>
         <updated>2019-05-16T14:40:52.000Z</updated>
         <summary type="html"><![CDATA[<p><em>Git 可是当今最流行的版本控制软件！</em></p>
@@ -117,39 +117,39 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6524580"><label class="task-list-item-label" for="task-item-6524580"> Additional icons  附加图标</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3890072"><label class="task-list-item-label" for="task-item-3890072"> Additional icons  附加图标</label></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4301606"><label class="task-list-item-label" for="task-item-4301606"> On the Desktop 添加图标到桌面上</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7991822"><label class="task-list-item-label" for="task-item-7991822"> On the Desktop 添加图标到桌面上</label></li>
 </ul>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4077574"><label class="task-list-item-label" for="task-item-4077574"> Windows Explorer integration Windows 资源管理器集成鼠标右键菜单</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1230878"><label class="task-list-item-label" for="task-item-1230878"> Windows Explorer integration Windows 资源管理器集成鼠标右键菜单</label></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8909424"><label class="task-list-item-label" for="task-item-8909424"> Git Bash Here</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3351660"><label class="task-list-item-label" for="task-item-3351660"> Git GUI Here</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7149961"><label class="task-list-item-label" for="task-item-7149961"> Git Bash Here</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5941075"><label class="task-list-item-label" for="task-item-5941075"> Git GUI Here</label></li>
 </ul>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9519763"><label class="task-list-item-label" for="task-item-9519763"> Git LFS (Large File Support) 大文件支持</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3485478"><label class="task-list-item-label" for="task-item-3485478"> Git LFS (Large File Support) 大文件支持</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7256057"> Associate .git* configuration files with the default text editor
-<label class="task-list-item-label" for="task-item-7256057"> Associate .git* configuration files with the default text editor 
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1716423"> Associate .git* configuration files with the default text editor
+<label class="task-list-item-label" for="task-item-1716423"> Associate .git* configuration files with the default text editor 
 将 .git 配置文件与默认文本编辑器相关联</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3456109"> Associate .sh files to be run with Bash
-<label class="task-list-item-label" for="task-item-3456109"> Associate .sh files to be run with Bash
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2997998"> Associate .sh files to be run with Bash
+<label class="task-list-item-label" for="task-item-2997998"> Associate .sh files to be run with Bash
 将.sh文件关联到Bash运行</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1357925"> Use a TrueType font in all console windows
-<label class="task-list-item-label" for="task-item-1357925"> Use a TrueType font in all console windows
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-527279"> Use a TrueType font in all console windows
+<label class="task-list-item-label" for="task-item-527279"> Use a TrueType font in all console windows
 在所有控制台窗口中使用TrueType字体</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7668522"> Check daily for Git for Windows updates
-<label class="task-list-item-label" for="task-item-7668522"> Check daily for Git for Windows updates
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4835428"> Check daily for Git for Windows updates
+<label class="task-list-item-label" for="task-item-4835428"> Check daily for Git for Windows updates
 每天检查Git是否有Windows更新</label></p>
 </li>
 </ul>
@@ -159,23 +159,23 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6026375"> Use the Nano editor by default
-<label class="task-list-item-label" for="task-item-6026375"> Use the Nano editor by default
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5503960"> Use the Nano editor by default
+<label class="task-list-item-label" for="task-item-5503960"> Use the Nano editor by default
 默认使用 Nano 编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-249917"> Use Vim (The ubiquitous text editor) as Git's default editor
-<label class="task-list-item-label" for="task-item-249917"> Use Vim (The ubiquitous text editor) as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-73770"> Use Vim (The ubiquitous text editor) as Git's default editor
+<label class="task-list-item-label" for="task-item-73770"> Use Vim (The ubiquitous text editor) as Git's default editor
 使用 Vim 作为 Git 的默认编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-645467"> Use Notepad++ as Git's default editor
-<label class="task-list-item-label" for="task-item-645467"> Use Notepad++ as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1186370"> Use Notepad++ as Git's default editor
+<label class="task-list-item-label" for="task-item-1186370"> Use Notepad++ as Git's default editor
 使用 Notepad++ 作为 Git 的默认编辑器</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9074241"> Use Visual Studio Code as Git's default editor
-<label class="task-list-item-label" for="task-item-9074241"> Use Visual Studio Code as Git's default editor
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9017213"> Use Visual Studio Code as Git's default editor
+<label class="task-list-item-label" for="task-item-9017213"> Use Visual Studio Code as Git's default editor
 使用 Visual Studio Code 作为 Git 的默认编辑器</label></p>
 </li>
 </ul>
@@ -185,18 +185,18 @@
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1560851"> Use Git from Git Bash only
-<label class="task-list-item-label" for="task-item-1560851"> Use Git from Git Bash only
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6372374"> Use Git from Git Bash only
+<label class="task-list-item-label" for="task-item-6372374"> Use Git from Git Bash only
 这是最安全的选择，因为您的PATH根本不会被修改。您只能使用 Git Bash 的 Git 命令行工具。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6552498"> Use Git from the Windows Command Prompt
-<label class="task-list-item-label" for="task-item-6552498"> Use Git from the Windows Command Prompt
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2557678"> Use Git from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-2557678"> Use Git from the Windows Command Prompt
 这个选项被认为是安全的，因为它只向PATH添加一些最小的 Git包，以避免使用可选的Unix工具混淆环境。 您将能够从 Git Bash 和 Windows 命令提示符中使用 Git。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7559477"> Use Git and optional Unix tools from the Windows Command Prompt
-<label class="task-list-item-label" for="task-item-7559477"> Use Git and optional Unix tools from the Windows Command Prompt
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5199533"> Use Git and optional Unix tools from the Windows Command Prompt
+<label class="task-list-item-label" for="task-item-5199533"> Use Git and optional Unix tools from the Windows Command Prompt
 Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 </li>
 </ul>
@@ -207,13 +207,13 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-469675"> Use the OpenSSL library   使用 OpenSSL 库
-<label class="task-list-item-label" for="task-item-469675"> Use the OpenSSL library   使用 OpenSSL 库
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6888157"> Use the OpenSSL library   使用 OpenSSL 库
+<label class="task-list-item-label" for="task-item-6888157"> Use the OpenSSL library   使用 OpenSSL 库
 服务器证书将使用ca-bundle.crt文件进行验证。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3845269"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
-<label class="task-list-item-label" for="task-item-3845269"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3540554"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
+<label class="task-list-item-label" for="task-item-3540554"> Use the native Windows Secure Channel library   使用本地 Windows 安全通道库
 服务器证书将使用Windows证书存储验证。此选项还允许您使用公司的内部根CA证书，例如， 通过Active Directory Domain Services</label></p>
 </li>
 </ul>
@@ -223,18 +223,18 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9477196"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
-<label class="task-list-item-label" for="task-item-9477196"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7789199"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
+<label class="task-list-item-label" for="task-item-7789199"> Checkout Windows-style,commit Unix-style line endings  安装windows方式检出，使用linux方式提交
 在检出文本文件时，Git会将LF转换为CRLF。当提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Windows上推荐的设置（“core.autocrlf”设置为“true”）</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7049207"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
-<label class="task-list-item-label" for="task-item-7049207"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5692360"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
+<label class="task-list-item-label" for="task-item-5692360"> Checkout as-is , commit Unix-style line endings    按原样检出，linux方式提交
 在检出文本文件时，Git不会执行任何转换。 提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Unix上的推荐设置 （“core.autocrlf”设置为“input”）</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-441109"> Checkout as-is,commit as-is   按原样检出，原样提交
-<label class="task-list-item-label" for="task-item-441109"> Checkout as-is,commit as-is   按原样检出，原样提交
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3267894"> Checkout as-is,commit as-is   按原样检出，原样提交
+<label class="task-list-item-label" for="task-item-3267894"> Checkout as-is,commit as-is   按原样检出，原样提交
 在检出或提交文本文件时，Git不会执行任何转换。对于跨平台项目，不推荐使用此选项（“core.autocrlf”设置为“false”）</label></p>
 </li>
 </ul>
@@ -244,13 +244,13 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中</label></p>
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4069512"> Use MinTTY (the default terminal of MSYS2)  推荐使用
-<label class="task-list-item-label" for="task-item-4069512"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1508996"> Use MinTTY (the default terminal of MSYS2)  推荐使用
+<label class="task-list-item-label" for="task-item-1508996"> Use MinTTY (the default terminal of MSYS2)  推荐使用
 Git Bash将使用MinTTY作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选区和Unicode字体。 Windows控制台程序（如交互式Python）必须通过'winpty'启动才能在MinTTY中运行。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9954181"> Use Windows' default console window     默认使用windows自己
-<label class="task-list-item-label" for="task-item-9954181"> Use Windows' default console window     默认使用windows自己
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5447390"> Use Windows' default console window     默认使用windows自己
+<label class="task-list-item-label" for="task-item-5447390"> Use Windows' default console window     默认使用windows自己
 Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以与Win32控制台程序（如交互式Python或node.js）一起使用，但默认的回滚非常有限，需要配置为使用unicode 字体以正确显示非ASCII字符，并且在Windows 10之前，其窗口不能自由调整大小，并且只允许矩形文本选择。</label></p>
 </li>
 </ul>
@@ -260,18 +260,18 @@ Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以
 <p><em><strong>附译文：</strong></em></p>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1155030"> Enable file system caching   启用文件系统缓存
-<label class="task-list-item-label" for="task-item-1155030"> Enable file system caching   启用文件系统缓存
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5309574"> Enable file system caching   启用文件系统缓存
+<label class="task-list-item-label" for="task-item-5309574"> Enable file system caching   启用文件系统缓存
 文件系统数据将被批量读取并缓存在内存中用于某些操作（“core.fscache”设置为“true”）。 这提供了显着的性能提升。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4755847"> Enable Git Credential Manager   启用Git凭证管理器
-<label class="task-list-item-label" for="task-item-4755847"> Enable Git Credential Manager   启用Git凭证管理器
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2148983"> Enable Git Credential Manager   启用Git凭证管理器
+<label class="task-list-item-label" for="task-item-2148983"> Enable Git Credential Manager   启用Git凭证管理器
 Windows的Git凭证管理器为Windows提供安全的Git凭证存储，最显着的是对Visual Studio Team Services和GitHub的多因素身份验证支持。 （需要.NET Framework v4.5.1或更高版本）。</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3126933"> Enable symbolic links   启用符号链接
-<label class="task-list-item-label" for="task-item-3126933"> Enable symbolic links   启用符号链接
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6024553"> Enable symbolic links   启用符号链接
+<label class="task-list-item-label" for="task-item-6024553"> Enable symbolic links   启用符号链接
 启用符号链接（需要SeCreateSymbolicLink权限）。请注意，现有存储库不受此设置的影响。</label></p>
 </li>
 </ul>
@@ -287,8 +287,8 @@ Windows的Git凭证管理器为Windows提供安全的Git凭证存储，最显着
     </entry>
     <entry>
         <title type="html"><![CDATA[Excel 保护表密码忘了怎么办？]]></title>
-        <id>https://blog.suremotoo.site/post/excel-password-crack</id>
-        <link href="https://blog.suremotoo.site/post/excel-password-crack">
+        <id>https://suremotoo.site/blog/post/excel-password-crack</id>
+        <link href="https://suremotoo.site/blog/post/excel-password-crack">
         </link>
         <updated>2019-05-08T13:55:54.000Z</updated>
         <summary type="html"><![CDATA[<p>在工作中，大家可能使用Excel的保护表功能，对 Excel 文件进行加密，有些是数据模板，防止误改加了密，也有可能是时间久了，就把密码给忘了。当然，这也不是不能解决的，现在给出破解密码的方法！😋😋</p>
@@ -469,8 +469,8 @@ End Sub
     </entry>
     <entry>
         <title type="html"><![CDATA[禁用 Chrome 的黑色模式/Dark Mode]]></title>
-        <id>https://blog.suremotoo.site/post/disable-chrome-dark-mode</id>
-        <link href="https://blog.suremotoo.site/post/disable-chrome-dark-mode">
+        <id>https://suremotoo.site/blog/post/disable-chrome-dark-mode</id>
+        <link href="https://suremotoo.site/blog/post/disable-chrome-dark-mode">
         </link>
         <updated>2019-05-04T01:20:48.000Z</updated>
         <summary type="html"><![CDATA[<p>macOS Mojave 中引入了系统层面的黑色模式，Chrome 73 在应用中支行了这一模式，即系统设置为黑色模式时，Chrome 会自动适应切换到 Dark Mode。</p>
@@ -526,8 +526,8 @@ com.google.Chrome.canary
     </entry>
     <entry>
         <title type="html"><![CDATA[apidoc 生成接口文档]]></title>
-        <id>https://blog.suremotoo.site/post/apidoc-sheng-cheng-jie-kou-wen-dang</id>
-        <link href="https://blog.suremotoo.site/post/apidoc-sheng-cheng-jie-kou-wen-dang">
+        <id>https://suremotoo.site/blog/post/apidoc-sheng-cheng-jie-kou-wen-dang</id>
+        <link href="https://suremotoo.site/blog/post/apidoc-sheng-cheng-jie-kou-wen-dang">
         </link>
         <updated>2019-04-22T11:27:23.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="快速生成接口文档html格式-markdown格式">快速生成接口文档HTML格式、MARKDOWN格式</h2>
@@ -716,8 +716,8 @@ public void getUser(String firstname, String lastname);
     </entry>
     <entry>
         <title type="html"><![CDATA[Mac将snap包发布到SnapStore]]></title>
-        <id>https://blog.suremotoo.site/post/mac-jiang-snap-bao-fa-bu-dao-snapstore</id>
-        <link href="https://blog.suremotoo.site/post/mac-jiang-snap-bao-fa-bu-dao-snapstore">
+        <id>https://suremotoo.site/blog/post/mac-jiang-snap-bao-fa-bu-dao-snapstore</id>
+        <link href="https://suremotoo.site/blog/post/mac-jiang-snap-bao-fa-bu-dao-snapstore">
         </link>
         <updated>2019-04-22T11:21:36.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="macos-用snapcraft-将-snap-包发布到-snap-store">MacOS 用snapcraft 将 snap 包发布到 snap store</h3>
@@ -748,8 +748,8 @@ public void getUser(String firstname, String lastname);
     </entry>
     <entry>
         <title type="html"><![CDATA[Redis 进击]]></title>
-        <id>https://blog.suremotoo.site/post/redis-jin-ji</id>
-        <link href="https://blog.suremotoo.site/post/redis-jin-ji">
+        <id>https://suremotoo.site/blog/post/redis-jin-ji</id>
+        <link href="https://suremotoo.site/blog/post/redis-jin-ji">
         </link>
         <updated>2019-04-22T11:19:46.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="nosql">NoSQL</h2>
@@ -913,8 +913,8 @@ public class Test {
     </entry>
     <entry>
         <title type="html"><![CDATA[Macos 破解软件下载]]></title>
-        <id>https://blog.suremotoo.site/post/macos-po-jie-ruan-jian-xia-zai</id>
-        <link href="https://blog.suremotoo.site/post/macos-po-jie-ruan-jian-xia-zai">
+        <id>https://suremotoo.site/blog/post/macos-po-jie-ruan-jian-xia-zai</id>
+        <link href="https://suremotoo.site/blog/post/macos-po-jie-ruan-jian-xia-zai">
         </link>
         <updated>2019-04-21T13:58:53.000Z</updated>
         <summary type="html"><![CDATA[<h2 id=""></h2>
@@ -958,8 +958,8 @@ public class Test {
     </entry>
     <entry>
         <title type="html"><![CDATA[Github SSH 配置]]></title>
-        <id>https://blog.suremotoo.site/post/github-ssh-config</id>
-        <link href="https://blog.suremotoo.site/post/github-ssh-config">
+        <id>https://suremotoo.site/blog/post/github-ssh-config</id>
+        <link href="https://suremotoo.site/blog/post/github-ssh-config">
         </link>
         <updated>2019-04-21T13:57:34.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="第一步-检查密钥">第一步-检查密钥</h2>
@@ -1007,8 +1007,8 @@ Attempts to ssh to github
     </entry>
     <entry>
         <title type="html"><![CDATA[Essential Electron 文档]]></title>
-        <id>https://blog.suremotoo.site/post/essential-electron-wen-dang</id>
-        <link href="https://blog.suremotoo.site/post/essential-electron-wen-dang">
+        <id>https://suremotoo.site/blog/post/essential-electron-wen-dang</id>
+        <link href="https://suremotoo.site/blog/post/essential-electron-wen-dang">
         </link>
         <updated>2019-04-21T13:47:05.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="essential-electron">Essential Electron</h1>
