@@ -1,83 +1,424 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
 <url>
-<loc><![CDATA[https://suremotoo.site]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://blog.suremotoo.site</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag-gridea</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/page/2]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag-guide</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/apidoc-sheng-cheng-jie-kou-wen-dang]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag-git</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/disable-chrome-dark-mode]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag_code</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/electron-xiang-mu-da-bao]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag_crack</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/git-install]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag-chrome</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/gridea-quick-start-guide]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog//tag/tag-dark</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/post/redis-jin-ji]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://github.com/suremotoo</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tag/tag-chrome]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>http://weibo.com/u/5438660018</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tag/tag-guide]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>http://wpa.qq.com/msgrd?v=3&amp;amp;amp;uin=875021259&amp;amp;amp;site=qq&amp;amp;amp;menu=yes</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tag/tag_Crack]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog/atom.xml</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tag/tag_Electron]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tag/tag_Mac]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://blog.suremotoo.site/blog</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/blog/tags]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://blog.suremotoo.site/blog/archives</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 <url>
-<loc><![CDATA[https://suremotoo.site/index.html]]></loc>
-<lastmod>2019-05-24</lastmod>
-<changefreq>weekly</changefreq>
+ <loc>https://blog.suremotoo.site/blog/tags</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://blog.suremotoo.site/blog/post/about</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/gridea-quick-start-guide</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-gridea</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-guide</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/gridea-quick-start-guide</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/git-install</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-guide</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-git</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_code</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/git-install</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/excel-password-crack</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_crack</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/excel-password-crack</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/disable-chrome-dark-mode</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-chrome</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag-dark</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/disable-chrome-dark-mode</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/apidoc-sheng-cheng-jie-kou-wen-dang</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_apidoc</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_markdown</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/apidoc-sheng-cheng-jie-kou-wen-dang</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/mac-jiang-snap-bao-fa-bu-dao-snapstore</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_snapcraft</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_snap</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_code</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/mac-jiang-snap-bao-fa-bu-dao-snapstore</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/redis-jin-ji</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_redis</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//tag/tag_code</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//post/redis-jin-ji</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog//page/2/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://github.com/suremotoo</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>http://weibo.com/u/5438660018</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>http://wpa.qq.com/msgrd?v=3&amp;amp;amp;uin=875021259&amp;amp;amp;site=qq&amp;amp;amp;menu=yes</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://suremotoo.site/blog/atom.xml</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
+</url>
+<url>
+ <loc>https://github.com/suremotoo</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-28</lastmod>
+ <changefreq>daily</changefreq>
 </url>
 </urlset>
